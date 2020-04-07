@@ -1,0 +1,884 @@
+* RDKit version 2019.03.3
+* target <rdkit.Chem.rdchem.Mol object at 0x7fc3189fc580>
+* population_size 100
+* mating_pool_size 200
+* generations 1000
+* mutation_rate 0.5
+* max_score 1.0
+* average_size/size_stdev 26 5
+* initial pool Celecoxib_guacamol.smi
+* number of tries 40
+* number of CPUs 40
+* seeds 753845,466386,976976,292357,890845,646379,99951,382542,781991,706316,946308,101055,271466,994656,171913,267332,398396,57309,512120,942921,123911,526938,922452,609168,378742,755371,600869,276917,107645,383642,21817,639141,731776,460783,885229,712688,994948,820402,636456,261581,946392,406062,731746,175126,357568,701001,961219,194850,5682,162159,865480,746270,667208,673731,470975,331454,896765,686638,667560,115996,981521,501212,100766,256941,464916,350908,486218,887099,725399,767804,860133,878636,683406,244393,617154,483963,75624,369018,695847,907845,5707,639080,586738,973532,24181,336961,487770,49324,722783,191183,576122,629792,947716,387114,413280,799632,786464,29296,534956,485616,9239,513483,951868,368058,447065,640497,953489,946283,978837,61205,590046,407487,117498,736320,524673,567759,222698,985233,278994,779011,18513,753698,97293,433320,943680,628457,516459,180939,83872,969374,32241,206987,163498,607158,923344,922566,363426,763107,14624,944802,392077,905624,875016,967184,495827,534614,685133,439011,425173,958950,890766,231844,231136,772650,466319,36473,251113,175808,297852,601189,491220,125229,542052,623683,103659,901816,524580,695603,887748,109787,384647,67659,248574,992186,100094,823418,441902,323787,348189,244361,630598,335362,694366,603836,598699,221124,850803,49257,563858,436322,747033,697935,628310,441392,407023,64877,893948,28304,7897,318475,303351,677851,725634,241786,412053,653293,299210,106357,573560,599797,493437,501923,40718,181629,486772,429106,797616,964174,374200,881797,732785,788598,266432,924672,973851,79317,958169,307715,883425,55463,118889,812111,202195,537708,298937,441483,628812,498333,794424,408743
+* 
+run,score,smiles,generations,representation,prune
+0,0.64,CC1=[C@H]C=C(S(=O)(=O)N)C=[C@H]C=C(N2N=CC=C(C3=CC=NC(C(F)(F)F)=C3)2)C=C1,1000,SMILES,True
+1,1.00,NS(=O)(=O)C1=CC=C(N2-N=C(C(F)(F)F)C=C2C/2=CC=C(C)C=C2)C=C1,132,SMILES,True
+2,0.70,NS(=O)(=O)C1=CC=C(C)C=CC=C(N2N=C(C(F)(F)F)C=C2C)C=C1,1000,SMILES,True
+3,0.73,NS(=O)(=O)C1=CC=C(\C2=[C@H]N=C(C(F)(F)F)N(C3=CC=C(C)C=C3)2)C=C1,1000,SMILES,True
+4,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C(C3=CC=C(C)C=C3)2)[C@H]=C1,190,SMILES,True
+5,1.00,NS(=O)(=O)C1=[C@H]C=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,57,SMILES,True
+6,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)[C@@H]=C1,625,SMILES,True
+7,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,177,SMILES,True
+8,0.78,NS(=O)(=O)C1=CC=C(C2=NN(C3=CC=C(C)C=C3)C(C(F)(F)F)=C2)C=C1,1000,SMILES,True
+9,1.00,CC1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,421,SMILES,True
+10,0.78,NS(=O)(=O)C1=[C@@H]C=C(C=C1)C1=CC=C(N2C(C)=CC(C(F)(F)F)=N2)C=C1,1000,SMILES,True
+11,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=[C@@H]C=C(C)C=C2)C=C1,49,SMILES,True
+12,0.71,NS(=O)(=O)C1=CC=C(C2=NN(C3=CC=C(C)C=C/3)C(S)=C2C(F)(F)F)C=C1,1000,SMILES,True
+13,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,47,SMILES,True
+14,0.73,NS(=O)(=O)C1=CC=C([C@]2N(C3=CC=C(C)C=C3)/N=C[C]=2C(F)(F)F)[C@@H]=C1,1000,SMILES,True
+15,0.78,NS(=O)(=O)C1=CC=C(C2=N\N(C3=CC=C(C)C=C3)C(C(F)(F)F)=C2)C=C1,1000,SMILES,True
+16,0.78,NS(=O)(=O)C1=CC=C(N2N=C(F)C=C2C2=CC=C(C)C=C2)C=C1,1000,SMILES,True
+17,0.80,C1=CC=C(S(=O)(=O)N)[C@@H]=C1C1=CC(C(F)(F)F)=NN1C1=C[C@H]=C(C)C=C1,1000,SMILES,True
+18,1.00,N1=C(C(F)(F)F)[C@H]=C(C2=CC=C(S(N)(=O)=O)C=C2)N1C1=CC=C(C)C=C1,304,SMILES,True
+19,0.69,N1=C(C2=CC=C(S(N)(=O)=O)C=C2)C=C(F)N1C1=[C@@H]C=C(C)C=[C@@H]1,1000,SMILES,True
+20,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)[C@H]=C1,66,SMILES,True
+21,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,63,SMILES,True
+22,0.78,NS(=O)(=O)C1=CC=C(N2N=C(C3=CC=C(C)C=C3)C=C2/C(F)(F)F)C=C1,1000,SMILES,True
+23,0.73,NS(=O)(=O)C1=CC=C(C2=[C@H]N=C(C(F)(F)F)N(C3=C\C=C(C)C=C3)2)C=C1,1000,SMILES,True
+24,1.00,NS(=O)(=O)\\C1=C[C@@H]=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,47,SMILES,True
+25,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C(C3=CC=C(C)C=C3)2)C=C1,161,SMILES,True
+26,0.69,NS(=O)(=O)C1=CC=C(C2=CC=NN(C3=CC=C(C(F)(F)F)N=CC=C(C)C=C3)2)C=[C@@H]1,1000,SMILES,True
+27,1.00,NS(=O)(=O)C1=[C@H]C=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,132,SMILES,True
+28,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C(C3=CC=C(C)C=C3)2)C=C1,262,SMILES,True
+29,0.78,NS(=O)(=O)C1=CC=C(N2N=C(F)C=C2/C2=CC=C(C)C=C2)C=C1,1000,SMILES,True
+30,0.71,NS(=O)(=O)C1=CC=C(C2=NN(C3=CC=C(C)C=C3)[C@@H]=C2C(F)(F)F)[C@H]=C1,1000,SMILES,True
+31,0.77,CC1=CC=C(S(=O)(=O)N)C=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=CC=C2)C=C1,1000,SMILES,True
+32,0.78,NS(=O)(=O)C1=CC=C(C2=NN(C3=CC=C(C)C=C3)C(C(F)(F)F)=C2)C=C1,1000,SMILES,True
+33,0.70,NS(=O)(=O)C1=CC=C(N2C3=C(C(C4=CC=C(C)[C@@H]=C4)=NC(C(F)(F)F)=C3)/2)C=C1,1000,SMILES,True
+34,0.75,NS(=O)(=O)C1=CC(C(F)(F)F)=NN1C1=CC=C(C2=CC=C(C)C=C2)C=C1,1000,SMILES,True
+35,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=[C@@H]1,105,SMILES,True
+36,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2\C2=CC=C(C)C=C2)C=C1,39,SMILES,True
+37,0.73,NS(=O)(=O)C1=CC=C(C2=C(C(F)(F)F)[CH]=NN(C3=CC=C(C)C=C3)2)[C@@H]=C1,1000,SMILES,True
+38,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)[CH]=C2)C=C1,68,SMILES,True
+39,0.78,CC1=CC(C(F)(F)F)=NN1C1=[C@H]C=C(C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,SMILES,True
+0,0.65,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C)C=C1,1000,SMILES,False
+1,0.71,NS(=O)(=O)C1=C[C@@H]=C(C2=NN(C3=CC=C(C)C=C3)C=C2C(F)(F)F)C=C1,1000,SMILES,False
+2,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,81,SMILES,False
+3,0.63,NS(=O)(=O)C1=CC=C(C2=NN(C3=C[C@H]=C(C)C=[C@H]3)[C@@H]=C2F)C=C1,1000,SMILES,False
+4,0.63,CC1=CC=C(C2=C(S(N)(=O)=O)N(C3=CC=C(C(F)(F)F)C=C3)N=C2)C=C1,1000,SMILES,False
+5,0.60,NS(=O)(=O)C1=CC=C(C2=C(C(F)(F)F)C=C(C)C=[C@H]C=C(C)C=[C@H]2)C=C1,1000,SMILES,False
+6,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=[C@H]C=C(C)[C@H]=C2)C=C1,81,SMILES,False
+7,0.66,NS(=O)(=O)C1=CC=C(N2N=[C@@H]C=C(C3=CC=C(C)C=C3)-2)C=C1,1000,SMILES,False
+8,0.63,NS(=O)(=O)C1=NC=C(C2=CC=C(C(F)(F)F)C=C2)N1C1=CC=C(C)C=C1,1000,SMILES,False
+9,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,82,SMILES,False
+10,0.70,NS(=O)(=O)C1=CC=C(C2=CN(C3=CC=C(C)C=C3)N2C(F)(F)F)C=C1,1000,SMILES,False
+11,0.72,CC/1=CC=C(C2=CC=C(S(N)(=O)=O)C=C2)N(C)N=C(C(F)(F)F)[C@@H]=C1,1000,SMILES,False
+12,0.73,NS(=O)(=O)C1=CC=C(C2=CN=C(C(F)(F)F)N2C2=CC=C(C)C=C2)C=C1,1000,SMILES,False
+13,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,70,SMILES,False
+14,0.70,NS(=O)(=O)C1=CC=C(N2C3=C(C(C4=CC=C(C)C=C4)=NC(C(F)(F)F)=C3)2)C=C1,1000,SMILES,False
+15,0.78,NS(=O)(=O)C1=[C@@H]C=C(N2N=C(F)C=C2C2=CC=C(C)C=C2)C=C1,1000,SMILES,False
+16,0.65,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C)C=C1,1000,SMILES,False
+17,0.66,CC1=CC=C(C2=CC=C(S(N)(=O)=O)[C@H]=C2)N=C(C(F)(F)F)C=CC(C)=C1,1000,SMILES,False
+18,0.69,NS(=O)(=O)C1=CC=C(N2N=C(C3=CC=C(C(F)(F)F)C=C3)C=C2C)C=C1,1000,SMILES,False
+19,0.66,NS(=O)(=O)C1=CC=C(C2=CC=C(C)C=C2)SN=C(C(F)(F)F)C=C1,1000,SMILES,False
+20,0.71,NS(=O)(=O)C1=CC=C(C2=NN(C3=CC=C(C)C=C3)C=C(C(F)(F)F)2)[C@@H]=C1,1000,SMILES,False
+21,0.69,NS(=O)(=O)C1=CC=C(N2C3=C(N(C(F)(F)F)C(C4=CC=C(C)C=[C@@H]4)=C3)2)C=C1,1000,SMILES,False
+22,0.64,NS(=O)(=O)C1=CC=C(C2=CC=C(C)[C@H]=CN=C(C(F)(F)F)C=C2)C=C1,1000,SMILES,False
+23,0.62,NS(=O)(=O)C1=CC=C(N2NC=C2C2=CC=C(C)[C@H]=C2)C=C1,1000,SMILES,False
+24,0.61,NS(=O)(=O)C1=CC=C(-N2C3=CC=CC(C)=CC=C3NN=C2C(F)(F)F)C=C1,1000,SMILES,False
+25,0.59,CC1=CC=C(S(=O)(=O)N)C=C[C@@H]=C(N2C(C(F)(F)F)=CC=C2Cl)[C@H]=C1,1000,SMILES,False
+26,0.75,NS(=O)(=O)C1=CC(C(F)(F)F)=NN1C1=CC=C(C2=CC=C(C)C=C2)[C@H]=C1,1000,SMILES,False
+27,0.78,NS(=O)(=O)C1=CC=C(N2N=C(F)C=C2C2=CC=C(C)C=C2)[C@H]=C1,1000,SMILES,False
+28,0.61,NS(=O)(=O)C1=CC=C(C2=NN3C(=[CH][C@@H]=C3C(F)(F)F)2)C=CC=C(C)C=C1,1000,SMILES,False
+29,0.63,NS(=O)(=O)C1=NC=C(C2=CC=C(C)C=C2)-N1C1=CC=C(C(F)(F)F)C=C1,1000,SMILES,False
+30,0.60,NS(=O)(=O)C1=CC=C(C)C=CC=C(C2=CC=C(C)C=C2C(F)(F)F)C=C1,1000,SMILES,False
+31,0.56,CC1=CC=C(S(=O)(=O)C2=CC=C(C=C2)N2C=C(C(F)(F)F)2)C=C1,1000,SMILES,False
+32,1.00,NS(=O)(=O)C1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C(C)C=C2)C=C1,64,SMILES,False
+33,0.66,NS(=O)(=O)C1=CC=C(C2=CN=NN(C3=[C@H]C=C(C)C=C3)2)C=C1,1000,SMILES,False
+34,0.69,NS(=O)(=O)C1=CC=C(N2N=CC=C2C2=CC=C(C)C=C2)C=CN=C(C(F)(F)F)C=C1,1000,SMILES,False
+35,0.61,CC1=CC=C(C2=CC=C(S(N)(=O)=O)[C@H]=CC=C/3C(=NN3C(F)(F)F)O2)C=C1,1000,SMILES,False
+36,0.69,NS(=O)(=O)C1=CC=C(C=C1)C1=CC=C(N2N=C(C)C=C2C(F)(F)F)C=C1,1000,SMILES,False
+37,0.62,NS(=O)(=O)C1=CC=C(N2NC=C2C2=CC=C(C)[C@H]=C2)C=C1,1000,SMILES,False
+38,0.60,[C@@H]1=C(C2=[C@@H]C=C(S(N)(=O)=O)C=C2)C2=C1N2C1=C[C@H]=C(C)C=C1,1000,SMILES,False
+39,0.70,NS(=O)(=O)C1=[C@H]C=C(N2C(C3=CC=C(C)C=C3)=C2C(F)(F)F)C=C1,1000,SMILES,False
+[19:47:40] WARNING: not removing hydrogen atom without neighbors
+[19:47:40] WARNING: not removing hydrogen atom without neighbors
+[19:47:57] WARNING: not removing hydrogen atom without neighbors
+[19:47:57] WARNING: not removing hydrogen atom without neighbors
+[19:47:58] Conflicting single bond directions around double bond at index 44.
+[19:47:58]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:09] WARNING: not removing hydrogen atom without neighbors
+[19:48:09] WARNING: not removing hydrogen atom without neighbors
+[19:48:50] Conflicting single bond directions around double bond at index 10.
+[19:48:50]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:50] Conflicting single bond directions around double bond at index 9.
+[19:48:50]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:50] Conflicting single bond directions around double bond at index 9.
+[19:48:50]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:50] Conflicting single bond directions around double bond at index 9.
+[19:48:50]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:51] Conflicting single bond directions around double bond at index 9.
+[19:48:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:52] Conflicting single bond directions around double bond at index 9.
+[19:48:52]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:52] Conflicting single bond directions around double bond at index 9.
+[19:48:52]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:52] Conflicting single bond directions around double bond at index 9.
+[19:48:52]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:53] Conflicting single bond directions around double bond at index 9.
+[19:48:53]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:53] Conflicting single bond directions around double bond at index 12.
+[19:48:53]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:54] Conflicting single bond directions around double bond at index 9.
+[19:48:54]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:55] Conflicting single bond directions around double bond at index 9.
+[19:48:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:55] Conflicting single bond directions around double bond at index 9.
+[19:48:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:55] Conflicting single bond directions around double bond at index 9.
+[19:48:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:55] Conflicting single bond directions around double bond at index 9.
+[19:48:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:56] Conflicting single bond directions around double bond at index 9.
+[19:48:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:57] Conflicting single bond directions around double bond at index 9.
+[19:48:57]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:48:59] Conflicting single bond directions around double bond at index 9.
+[19:48:59]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:01] Conflicting single bond directions around double bond at index 1.
+[19:49:01]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:12] Conflicting single bond directions around double bond at index 6.
+[19:49:12]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:12] Conflicting single bond directions around double bond at index 1.
+[19:49:12]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:31] WARNING: not removing hydrogen atom without neighbors
+[19:49:31] WARNING: not removing hydrogen atom without neighbors
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:49:46] Conflicting single bond directions around double bond at index 6.
+[19:49:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:50:18] WARNING: not removing hydrogen atom without neighbors
+[19:50:18] WARNING: not removing hydrogen atom without neighbors
+[19:51:34] WARNING: not removing hydrogen atom without neighbors
+[19:51:34] WARNING: not removing hydrogen atom without neighbors
+[19:52:27] WARNING: not removing hydrogen atom without neighbors
+[19:52:27] WARNING: not removing hydrogen atom without neighbors
+[19:53:00] WARNING: not removing hydrogen atom without neighbors
+[19:53:00] WARNING: not removing hydrogen atom without neighbors
+[19:53:13] WARNING: not removing hydrogen atom without neighbors
+[19:53:13] WARNING: not removing hydrogen atom without neighbors
+[19:53:30] WARNING: not removing hydrogen atom without neighbors
+[19:53:30] WARNING: not removing hydrogen atom without neighbors
+[19:53:50] WARNING: could not find number of expected rings. Switching to an approximate ring finding algorithm.
+[19:53:50] WARNING: could not find number of expected rings. Switching to an approximate ring finding algorithm.
+[19:53:50] WARNING: could not find number of expected rings. Switching to an approximate ring finding algorithm.
+[19:54:58] WARNING: not removing hydrogen atom without neighbors
+[19:54:58] WARNING: not removing hydrogen atom without neighbors
+[19:55:00] WARNING: not removing hydrogen atom without neighbors
+[19:55:00] WARNING: not removing hydrogen atom without neighbors
+[19:55:00] WARNING: not removing hydrogen atom without neighbors
+[19:55:00] WARNING: not removing hydrogen atom without neighbors
+[19:55:12] WARNING: not removing hydrogen atom without neighbors
+[19:55:12] WARNING: not removing hydrogen atom without neighbors
+[19:55:53] WARNING: not removing hydrogen atom without neighbors
+[19:55:53] WARNING: not removing hydrogen atom without neighbors
+[19:57:33] WARNING: not removing hydrogen atom without neighbors
+[19:57:33] WARNING: not removing hydrogen atom without neighbors
+[19:57:59] WARNING: not removing hydrogen atom without neighbors
+[19:57:59] WARNING: not removing hydrogen atom without neighbors
+[19:58:18] WARNING: not removing hydrogen atom without neighbors
+[19:58:18] WARNING: not removing hydrogen atom without neighbors
+[19:58:48] WARNING: not removing hydrogen atom without neighbors
+[19:58:48] WARNING: not removing hydrogen atom without neighbors
+[19:58:56] WARNING: not removing hydrogen atom without neighbors
+[19:58:56] WARNING: not removing hydrogen atom without neighbors
+[19:58:59] Conflicting single bond directions around double bond at index 0.
+[19:58:59]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:59:39] Conflicting single bond directions around double bond at index 21.
+[19:59:39]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[19:59:51] Conflicting single bond directions around double bond at index 17.
+[19:59:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[20:00:24] WARNING: not removing hydrogen atom without neighbors
+[20:00:24] WARNING: not removing hydrogen atom without neighbors
+[20:00:35] WARNING: not removing hydrogen atom without neighbors
+[20:00:35] WARNING: not removing hydrogen atom without neighbors
+[20:01:16] WARNING: not removing hydrogen atom without neighbors
+[20:01:16] WARNING: not removing hydrogen atom without neighbors
+[20:05:23] WARNING: not removing hydrogen atom without neighbors
+[20:05:23] WARNING: not removing hydrogen atom without neighbors
+0,1.00,CCF)F)F))=NNC=CC=CC)C=C6))))))CC=CC=CSN)==O)=O))C=C6))))))====[C@@H]5,539,DeepSMILES,True
+1,0.73,N=CC=NNC=CC=CSN)=O)=O))C=C6#))))))C=C6#)CF)F)F)))))C=CC=CC=)C=C6,1000,DeepSMILES,True
+2,0.60,NS=O)=O)C=CC=CC=CCF)F)F))C=C6))))))N3C=CC=CC)C=C6,1000,DeepSMILES,True
+3,0.73,NS=O)=O)C=CC===CNC=[C@H]N=C5CF)F)F)))))C==CC=CC)C=C6))))))))C=C6,1000,DeepSMILES,True
+4,1.00,NS=O)=O)C/==\##==C[C@@H]=CC=C6/))C=CCCF)F)F))=NN5C=CC=CC)C=C6,388,DeepSMILES,True
+5,0.75,NS=O)=O)C=CCCF)F)F))=NN5C=CC=CC=CC=CC\)C=C6))))))C=C6,1000,DeepSMILES,True
+6,1.00,C==CCSN)=O)=O))=CC=C6C\==CCCF)F)F))====NN5C=CC=CC)[C@@H]==C6,186,DeepSMILES,True
+7,0.75,CCF)F)F))#=NNC=CC=CSN)=O)=O))C=C)))/)9)C=))C=CC=CC)[C@H]=C6,1000,DeepSMILES,True
+8,1.00,NS=O)=O)C=CC=CNN==CCF)F)F))C=C5C=CC=CC\)C=C6)))))))))))C=C6,29,DeepSMILES,True
+9,1.00,C=CC)C=CC=C6)C=CC=-CF)F)F))=NN5C=CC=CS=O)=O)N))C=C6,356,DeepSMILES,True
+10,0.60,NS=O)=O)NN=CC=CC=CC-)C=C6))))))C=C5C\=CC=CCF)F)F))C=C6,1000,DeepSMILES,True
+11,1.00,F/CF==)F==)C==NNC=CC=CC)C=C6))))))CC=CC=CSN)=O)=O))C=C6))))))=C5,472,DeepSMILES,True
+12,0.75,NS=O)=O)C=NNC=CC=CC)C=C6))))))CC=C[C@H]=CCF)F)F))[C@H]==C6))))))=C5,1000,DeepSMILES,True
+13,1.00,NS=O)=O)C==CC=CC=C6))NN=CCF)F)F))[C@H]=C5C=CC=CC)C=C6,139,DeepSMILES,True
+14,1.00,C===CCSN)=O)=O))=C[C@H]=C6C=CCCF)F)F))=NN5C=CC=CC)C=C6,597,DeepSMILES,True
+15,0.78,NS=O)=O)C==CC==CC=C6))C=CC=CNN=CCF)F)F))C=C5C))))))C=C6,1000,DeepSMILES,True
+16,0.78,NS=O)=O)C=CC===CC=CCF)=NN5C==CC=CC)[C@@H]=[C@H]6)))))))))))C=C6,1000,DeepSMILES,True
+17,0.73,C\=CCSN)=O)=O))=CC=C6C=CC=CC=CC)C=CCCF)F)F))=NN9%11,1000,DeepSMILES,True
+18,0.77,C#=CCSN)=O)=O))=CC=C6NC=I)N=CCF)F)F))C=C6C=CC=CC)C==C6,1000,DeepSMILES,True
+19,0.67,I=CCF)F)F)\)CC=CC=CSN)=O)=O))C=C6))))))=CN5C=[C@H]C=CC)C=C6,1000,DeepSMILES,True
+20,0.67,NN=CBCCF)F)F))=C6)))C=[C@H]C=CSN)=O)=O))C=C6))))))))C=CC=CC)C=C6,1000,DeepSMILES,True
+21,1.00,NS=O)=O)C==CC=CNN=CCF)F)F))C=C5C=CC=CC)C=C6)))))))))))[C@H]=C6,367,DeepSMILES,True
+22,1.00,C-CF)F)F))=\=NNC===CC=CC)C=C6))))))C==/C=CC=CSN)=O)=O))C=C6))))))=C5,683,DeepSMILES,True
+23,0.74,NS==O)=O)[C]C=CC=CCC)#==C[C@@H]=CNN=CCF)F)F))C=C5-))%14)))C=C%10,1000,DeepSMILES,True
+24,0.81,NS=O)=O)C=CC=CNN=CC=C5C===CC=CC#)C=C6))))))))[S@H]CF)F)F))))))C=C6,1000,DeepSMILES,True
+25,0.78,C=CNN=CCF)F)F))C=C5C))))))C#====CCC=CC=CSN)=O)=O))C=C6))))))=C6,1000,DeepSMILES,True
+26,0.69,BS=O)=O)C=CC=CC=)C=[C@H]6)))))))C=CC=CNN=CCF)F)F))C=C5N))))))C=C6,1000,DeepSMILES,True
+27,0.67,NS=O)=O)C=CC=CC==C6))NCCCF)F)F))=C4C=CC=CC)C=C6,1000,DeepSMILES,True
+28,1.00,C=CCSN)=O)=O))=C[C@H]=C6C====C/CCF)F)F))=NN5C=CC=CC)C=C6,598,DeepSMILES,True
+29,0.78,FC==NNC=CC=CSN)=O)=O))C=C6))))))C=C)5C=CC=CC)C=C6,1000,DeepSMILES,True
+30,0.64,CC=CC==CCF)F)F))N=CC==)C=CCC=CC=CSN)=O)=O))C=C6))))))==C%10,1000,DeepSMILES,True
+31,0.55,C=C[C@@H]=CCCF)F)F))=N6))))C=CC=CCS=O)=O)C=CC=CC)C=C6)))))))=C6,1000,DeepSMILES,True
+32,0.78,NS=O)==O)C===CC=CNN=CF)C=C5C=CC=CC\)C=C6)))))))))))C=C6,1000,DeepSMILES,True
+33,0.64,NS=O)=O)C=CC=CC==NCCF)F)F))=CC=C#)=))))%10C=))C==CC=CC)C=C6,1000,DeepSMILES,True
+34,0.56,N[C]NC=CC=CCF)F)F))[C@@H]=C6))))))CS=O)=O)C=CC=CC)[C@H]=C6)))))))=N4,1000,DeepSMILES,True
+35,0.73,NS=O)=O)C==-==CC=CNC==[C@@H]N=C5CF)F)F)))))C=CC=CC)C=C6))))))))C=C6,1000,DeepSMILES,True
+36,0.81,N=CCCF)F)F))=NNC=CC=CSN)=O)=O))C=C6))))))CC=CC=CC)C=C6))))))=C6,1000,DeepSMILES,True
+37,0.80,NS=O)=O)CC==CC=CC=6)C=CCCF)F)F))=NN5C=CC=CC)C=C6,1000,DeepSMILES,True
+38,1.00,CC=CC==CSN)=O)=O))[C@@H]=6))))/NN=CCF)F)F))C=C5C=CC=CC)C=C6,907,DeepSMILES,True
+39,0.78,[C@@H]=[C@@H]CSN)=O)=O))=C[C@H]=C6C=CCF)=NN5C=CC=CC)C=C6,1000,DeepSMILES,True
+0,0.55,NS=O)=O)C==CC=CC=CC=CC)C=C6))))))C=C)6,1000,DeepSMILES,False
+1,0.52,NS=O)=O)C=CC=CC)C=C6)))))))[C@@H]C=CCF)F)F))C=C6C==C6))))))))C=CC=CC=/CC=C[%16@H]=CC=CCF)F)5)+=O)=O)C=CC=)FO)C=CC=CC)C=C6))))))))C=CC=CC=/CC=C[C@H]=CC=CCC==CC=CC=CC=CC))))))))))CBrC6,1000,DeepSMILES,False
+2,0.59,CC=CC=CC=CC==CSN)=O)=O))C=C6))))))CCF)F)F))=C6,1000,DeepSMILES,False
+3,0.63,C/C=CCCF)F)F))=NN5C=CC=[N]CC=CC=CSN)=O)=O))C=C6))))))=C6,1000,DeepSMILES,False
+4,0.57,NS=O)==O)C=CCCF)F)F))=NCC==CC=CC)C=C6))))))=C6,1000,DeepSMILES,False
+5,0.65,NS=O)=O)C=CC=CNN=CCF)F)F))C=C5C))))))C==C6))))))))C=CC=CCF)NC=CC=CSNCC=CC=/O)C=O)C=C4=CC=C6C%10=O)))))))))))C=C6,1000,DeepSMILES,False
+6,0.48,N-\CNC=CC=NCCF)F)F))=C6))))))S=O)=O)C=CC=CC#)C=C6,1000,DeepSMILES,False
+7,0.65,NS=O)=O)C=CC==CNN=CCF)F)F))C=C5C/))))))C=C6,1000,DeepSMILES,False
+8,0.65,C=CC=CC=CSN)=O)=O))C==C6))))))C==CCF)F)F))N=C6C=CC=CC)C=C6,1000,DeepSMILES,False
+9,0.59,CC=CC=#)C=CCF)F)F))C==6C=CC=CS==O)=O)N))C=C6,1000,DeepSMILES,False
+10,0.59,O=S=O)N=)C=CC=CCF)F)F))C=C6)C=CC=CC-)C=C6)))))))))))))NCC=CC=CF)CCC=CC=C=CC[C@H]CC=CS=O)=O#2C=O)6)))F)F))C=C6))))))NCCNCC=CC=CCl)C=C6)))/)))))))C=C6))))))NCCN))))))NCC=CC=CF)CF)=C=SC)=O)C=CC5CCNCC)NC=CC=CF)C=C6))))))C=O)C6=C%10,1000,DeepSMILES,False
+11,0.65,NS=O)=O)C=CC=CNN=CCF)F)F))C=C5C=))-))))C=C6,1000,DeepSMILES,False
+12,0.58,C-CC=NCCF)F)F))=CC=C6C=CC=CSN)=O)=O))C=C6)))))))))))))=C)C=CC=CC-)C=C6,1000,DeepSMILES,False
+13,0.66,CC==CC=CSN)===O)=O))C=6))))C==[C@@H]C=NN5C=CC==CC)C=C6,1000,DeepSMILES,False
+14,0.65,NS=O)=O)C=CC==CNN=CCF)F)F))C=C5C=))))))C=C6,1000,DeepSMILES,False
+15,0.51,CC=CC=CC=NNC=CC=CF)C=C6))))))CF)=[C@@H]5)))))C=C6)))))))C=CC==CNN=C)F))C=))C==C6,1000,DeepSMILES,False
+16,0.62,NS=O)=O)C=C\C=CC=CCF)F)F))C=C4C=CC==CC)C=C6\))))))))))C=C6,1000,DeepSMILES,False
+17,0.41,CC=CC==CNC=CCF)F)F))CN)=N5)))))C=C6)))))))C=CC=CC=CC))C=C6)))))))C=CC=CC=O)NCCC=O)O))))))C==CC=CC=CC)))))))C=C6,1000,DeepSMILES,False
+18,0.65,N#=CCF)F)F))-C=CC=CC=CSN)=O)=O))C=C6))))))C=C6C=C[C@@H]=CC)C=C6,1000,DeepSMILES,False
+19,0.66,NS=O)==O)C=CC=CNN=NC=C5C=CC=CC)C=C6)))))))))))C=C6))))))))=O)C=CC=CCF)F)F3)CC=CC=N==CCC)=CCl)C=C6))%14)))))))))C))))=O)C=CC=CCF)F)F3)=C\C=SC=C5C==CCC)O)=O)C=CC=CNC=SC=C5CBr=CCC)=CCl)C=C6)))))))))))C=C6)))))==O)C=CC=CNC=BC=C5C=CC=CC)C=C6)))))))))))C=C6))))))))=O)C=CC=CCF)F)F3)CC=CC=N==CCC)=CCl)C=%116))%14)))))))))C))))=O)C=CC=CCF)F)F3)=C\C=OC=C5C==CCC)O)=O)C=CC=CNC=SC#)NCC=CCCCF)F)F))==C9)))))F))+14)))))))))C))))=O)C=CC=CCF)F)F3)==C\C=SC==5=SC=C5CCCC=O)CC=CC=O)NCC=CC=NC=C6)))CC=CCF)F)F3)=C\C=SC=C5C==CCC)O)=O)C=CC=CNC=SC=C5CBr=CCC)=CCl)C=C6)))))))))))C=C6))))))))=O)C=C=C6l)%14)))))))))C))))=O)C=CC=CCF)F)F3)=C\C=SC=C5C==CCC)O)=O)C=CC=CNC=SC=C5CBr=CCC)=CCl)C=C6)))))))))))C=C6))))))))=O)C=CC=CCF)F)F3)=CB)CSC=C5C=CC=CC)C=C6)))))))))))C=C6))))))))=O)C=CC=CCFO)CC=CC=#)NCC=CCCCF)F)F))==C9)))C=C6)))))))))))C=C6,1000,DeepSMILES,False
+20,0.73,NS=O)=O)C=CC=CC=C6))C=CN=CCF)F)F))N5C==CC=CC)C=C6,1000,DeepSMILES,False
+21,0.65,C=CC==-==CC=CSN)=O)==O))C=C6=))))))N==CCF)F)F))C=C6C=CC=CC)C=C6,1000,DeepSMILES,False
+22,1.00,NS=O)=O)C===CC==CC=C6))C=CCCF)F)F))=NN5C=CC=CC)C=C6,294,DeepSMILES,False
+23,0.60,NS=O)=O)C=CC=CNC=CCC=CC=CC)C=C6))))))=N5)))))C=C6))))))))C=CC=CNC=CCC=CC=CC)C=C6)))=))==NN5C=%11C=C)%10)))C=C6,1000,DeepSMILES,False
+24,0.55,NS=O)=O)C=CC==CC=CC=CC)C=C6))))))C=C6,1000,DeepSMILES,False
+25,0.63,NC=CCS=O)=O)C=C[C@H]=CC)[C@H]=C6)))))))==NN5C=CC=CCF)F)F))C=C6,1000,DeepSMILES,False
+26,0.59,SCC)=[N]CC=CC=CSN)=O)=O))C=C6))))))=CN6C==CC==CCF)F)F))C=C6,1000,DeepSMILES,False
+27,0.61,NS=O)=O)C=CC==CNN=CCF)F)F))C=C5[C@@H]))))))[C@@H]=C6,1000,DeepSMILES,False
+28,1.00,NS=O)=O)C===CC=CNN=CCF)F)F))C==C5C=CC=CC#)C=C6)))))))))))C=C6,87,DeepSMILES,False
+29,0.55,NS=O)=O)C=CC=CC=CC=CC)C=C6))))))C=C6,1000,DeepSMILES,False
+30,0.66,CC====CC=CS=O)=O)N))[C@H]=6))))C=CN=NN5\C==CC=CC)C=C6,1000,DeepSMILES,False
+31,0.78,C=CC=)C=CCNN=CCF)F)F))C=C5C=CC==CN)C=C6)))))))))))=C6,1000,DeepSMILES,False
+32,0.41,CC=CC=CS=O)=O)N))C=C6)))))))C=CC=CC=O)NCCCC=O)CS8NC=NN=CCSN)=O)=O))=CC=C=CCF)F)F))FC))F))CC)=N5))=O)=CC=)))))))C=CC=C8=O)NCCC=O)O))))))C=C6,1000,DeepSMILES,False
+33,0.66,C=CCSN)=O)=O))=CC==C6C=CC=NN5C=CC=CC)C=C6,1000,DeepSMILES,False
+34,0.65,NS==O)=O)C=CC==CNN=CCF)F)F))C=C5C))))))C=C6,1000,DeepSMILES,False
+35,0.55,NC==CC=CC=CCF)F)F))C=C6))))))C==NN5C=CC=CC)C=C6,1000,DeepSMILES,False
+36,0.61,NS=O)=O)NN=CCF)F)F))C==C5C=CC==CC=C6C==CC=CC)C=C6,1000,DeepSMILES,False
+37,0.50,CNC3CC=NCCF)F)F))=C6C=CC=CC)C==[C@H]6))))))))))))S=O)=O)C=CC=CCl)C=C6)))))))))NCC=C2=CF)CFNC))))))))NCC=CC=CF)CFNCC=CC=CS=O)=O)NCCNCC6)))))))C=C6))))))=CN=CO)S=O)=O)NCCNCC6)))))))C=CC=CF)CFNC=CC=CNC=C6,1000,DeepSMILES,False
+38,0.55,CC=CC=CS=O)=O)C=CC=CCC=CC=CCF)F)F))N=C6))))))=C6)))))))C=C6,1000,DeepSMILES,False
+39,1.00,NS=O)=O)C=CC==CC=C==)=)6C===CCCF)F)F))==NN5C==CC=CC=)C=[C@@H]6,293,DeepSMILES,False
+[21:01:22] Conflicting single bond directions around double bond at index 4.
+[21:01:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:22] Conflicting single bond directions around double bond at index 4.
+[21:01:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:22] Conflicting single bond directions around double bond at index 4.
+[21:01:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:37] Conflicting single bond directions around double bond at index 20.
+[21:01:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:42] Conflicting single bond directions around double bond at index 23.
+[21:01:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:46] Conflicting single bond directions around double bond at index 26.
+[21:01:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:51] Conflicting single bond directions around double bond at index 18.
+[21:01:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:51] Conflicting single bond directions around double bond at index 18.
+[21:01:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:01:52] Conflicting single bond directions around double bond at index 18.
+[21:01:52]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:23] Conflicting single bond directions around double bond at index 27.
+[21:02:23]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:23] Conflicting single bond directions around double bond at index 31.
+[21:02:23]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:26] Conflicting single bond directions around double bond at index 12.
+[21:02:26]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:26] Conflicting single bond directions around double bond at index 12.
+[21:02:26]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:26] Conflicting single bond directions around double bond at index 24.
+[21:02:26]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:26] Conflicting single bond directions around double bond at index 24.
+[21:02:26]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:27] Conflicting single bond directions around double bond at index 12.
+[21:02:27]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:27] Conflicting single bond directions around double bond at index 12.
+[21:02:27]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:02:34] WARNING: not removing hydrogen atom without neighbors
+[21:02:34] WARNING: not removing hydrogen atom without neighbors
+[21:03:32] Conflicting single bond directions around double bond at index 13.
+[21:03:32]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:03:32] Conflicting single bond directions around double bond at index 13.
+[21:03:32]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:03:33] Conflicting single bond directions around double bond at index 13.
+[21:03:33]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:04:06] Conflicting single bond directions around double bond at index 13.
+[21:04:06]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:06:00] Conflicting single bond directions around double bond at index 15.
+[21:06:00]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:06:13] Conflicting single bond directions around double bond at index 1.
+[21:06:13]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:06:18] Conflicting single bond directions around double bond at index 13.
+[21:06:18]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:06:18] Conflicting single bond directions around double bond at index 13.
+[21:06:18]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:06:19] Conflicting single bond directions around double bond at index 13.
+[21:06:19]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:06:54] WARNING: not removing hydrogen atom without neighbors
+[21:07:36] WARNING: not removing hydrogen atom without neighbors
+[21:07:36] WARNING: not removing hydrogen atom without neighbors
+[21:08:06] Conflicting single bond directions around double bond at index 13.
+[21:08:06]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:08:06] Conflicting single bond directions around double bond at index 13.
+[21:08:06]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:08:07] Conflicting single bond directions around double bond at index 13.
+[21:08:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:08:07] Conflicting single bond directions around double bond at index 15.
+[21:08:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:08:56] Conflicting single bond directions around double bond at index 3.
+[21:08:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:08:57] Conflicting single bond directions around double bond at index 3.
+[21:08:57]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:08:57] Conflicting single bond directions around double bond at index 3.
+[21:08:57]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:09:31] WARNING: not removing hydrogen atom without neighbors
+[21:09:31] WARNING: not removing hydrogen atom without neighbors
+[21:11:08] Conflicting single bond directions around double bond at index 6.
+[21:11:08]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:11:08] Conflicting single bond directions around double bond at index 6.
+[21:11:08]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:11:09] Conflicting single bond directions around double bond at index 6.
+[21:11:09]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:11:32] WARNING: could not find number of expected rings. Switching to an approximate ring finding algorithm.
+[21:11:32] WARNING: could not find number of expected rings. Switching to an approximate ring finding algorithm.
+[21:11:32] WARNING: could not find number of expected rings. Switching to an approximate ring finding algorithm.
+[21:11:34] WARNING: not removing hydrogen atom without neighbors
+[21:11:34] WARNING: not removing hydrogen atom without neighbors
+[21:11:41] Conflicting single bond directions around double bond at index 19.
+[21:11:41]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:06] Conflicting single bond directions around double bond at index 3.
+[21:12:06]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:07] Conflicting single bond directions around double bond at index 13.
+[21:12:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:10] Conflicting single bond directions around double bond at index 3.
+[21:12:10]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:11] Conflicting single bond directions around double bond at index 3.
+[21:12:11]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:11] Conflicting single bond directions around double bond at index 3.
+[21:12:11]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:14] Conflicting single bond directions around double bond at index 3.
+[21:12:14]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:14] Conflicting single bond directions around double bond at index 3.
+[21:12:14]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:15] Conflicting single bond directions around double bond at index 3.
+[21:12:15]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:15] Conflicting single bond directions around double bond at index 3.
+[21:12:15]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:16] Conflicting single bond directions around double bond at index 3.
+[21:12:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:16] Conflicting single bond directions around double bond at index 3.
+[21:12:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:16] Conflicting single bond directions around double bond at index 3.
+[21:12:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:16] Conflicting single bond directions around double bond at index 3.
+[21:12:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:16] Conflicting single bond directions around double bond at index 3.
+[21:12:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:36] Conflicting single bond directions around double bond at index 5.
+[21:12:36]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:37] Conflicting single bond directions around double bond at index 12.
+[21:12:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:37] Conflicting single bond directions around double bond at index 5.
+[21:12:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:37] Conflicting single bond directions around double bond at index 5.
+[21:12:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:42] Conflicting single bond directions around double bond at index 3.
+[21:12:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:42] Conflicting single bond directions around double bond at index 3.
+[21:12:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:42] Conflicting single bond directions around double bond at index 3.
+[21:12:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:42] Conflicting single bond directions around double bond at index 3.
+[21:12:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:49] Conflicting single bond directions around double bond at index 3.
+[21:12:49]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:49] Conflicting single bond directions around double bond at index 3.
+[21:12:49]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:49] Conflicting single bond directions around double bond at index 3.
+[21:12:49]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:50] Conflicting single bond directions around double bond at index 3.
+[21:12:50]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:12:56] Conflicting single bond directions around double bond at index 5.
+[21:12:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:24] Conflicting single bond directions around double bond at index 15.
+[21:13:24]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:28] Conflicting single bond directions around double bond at index 5.
+[21:13:28]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:35] Conflicting single bond directions around double bond at index 3.
+[21:13:35]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:37] WARNING: not removing hydrogen atom without neighbors
+[21:13:39] Conflicting single bond directions around double bond at index 3.
+[21:13:39]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:39] Conflicting single bond directions around double bond at index 5.
+[21:13:39]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:46] Conflicting single bond directions around double bond at index 7.
+[21:13:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:53] Conflicting single bond directions around double bond at index 3.
+[21:13:53]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:53] Conflicting single bond directions around double bond at index 3.
+[21:13:53]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:54] Conflicting single bond directions around double bond at index 3.
+[21:13:54]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:55] Conflicting single bond directions around double bond at index 4.
+[21:13:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:55] Conflicting single bond directions around double bond at index 4.
+[21:13:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:55] Conflicting single bond directions around double bond at index 4.
+[21:13:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:55] Conflicting single bond directions around double bond at index 4.
+[21:13:55]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:56] Conflicting single bond directions around double bond at index 4.
+[21:13:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:13:56] Conflicting single bond directions around double bond at index 4.
+[21:13:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:00] Conflicting single bond directions around double bond at index 3.
+[21:14:00]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:05] Conflicting single bond directions around double bond at index 3.
+[21:14:05]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:18] Conflicting single bond directions around double bond at index 13.
+[21:14:18]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:30] Conflicting single bond directions around double bond at index 15.
+[21:14:30]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:30] Conflicting single bond directions around double bond at index 5.
+[21:14:30]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:30] Conflicting single bond directions around double bond at index 3.
+[21:14:30]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:44] Conflicting single bond directions around double bond at index 3.
+[21:14:44]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:45] Conflicting single bond directions around double bond at index 3.
+[21:14:45]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:45] Conflicting single bond directions around double bond at index 3.
+[21:14:45]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:51] Conflicting single bond directions around double bond at index 31.
+[21:14:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:51] Conflicting single bond directions around double bond at index 3.
+[21:14:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:52] Conflicting single bond directions around double bond at index 3.
+[21:14:52]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:14:52] Conflicting single bond directions around double bond at index 3.
+[21:14:52]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:01] Conflicting single bond directions around double bond at index 3.
+[21:15:01]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:01] Conflicting single bond directions around double bond at index 3.
+[21:15:01]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:01] Conflicting single bond directions around double bond at index 3.
+[21:15:01]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:10] WARNING: not removing hydrogen atom without neighbors
+[21:15:10] WARNING: not removing hydrogen atom without neighbors
+[21:15:11] WARNING: not removing hydrogen atom without neighbors
+[21:15:11] WARNING: not removing hydrogen atom without neighbors
+[21:15:16] Conflicting single bond directions around double bond at index 3.
+[21:15:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:16] Conflicting single bond directions around double bond at index 3.
+[21:15:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:17] Conflicting single bond directions around double bond at index 3.
+[21:15:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:18] Conflicting single bond directions around double bond at index 12.
+[21:15:18]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:19] Conflicting single bond directions around double bond at index 3.
+[21:15:19]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:27] Conflicting single bond directions around double bond at index 33.
+[21:15:27]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:28] Conflicting single bond directions around double bond at index 33.
+[21:15:28]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:28] Conflicting single bond directions around double bond at index 12.
+[21:15:28]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:28] Conflicting single bond directions around double bond at index 33.
+[21:15:28]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:29] Conflicting single bond directions around double bond at index 3.
+[21:15:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:29] Conflicting single bond directions around double bond at index 3.
+[21:15:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:30] Conflicting single bond directions around double bond at index 3.
+[21:15:30]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:31] Conflicting single bond directions around double bond at index 3.
+[21:15:31]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:32] Conflicting single bond directions around double bond at index 3.
+[21:15:32]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:32] Conflicting single bond directions around double bond at index 3.
+[21:15:32]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:38] Conflicting single bond directions around double bond at index 3.
+[21:15:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:38] Conflicting single bond directions around double bond at index 3.
+[21:15:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:38] Conflicting single bond directions around double bond at index 3.
+[21:15:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:38] Conflicting single bond directions around double bond at index 13.
+[21:15:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:42] Conflicting single bond directions around double bond at index 3.
+[21:15:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:43] Conflicting single bond directions around double bond at index 3.
+[21:15:43]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:43] Conflicting single bond directions around double bond at index 3.
+[21:15:43]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:44] Conflicting single bond directions around double bond at index 3.
+[21:15:44]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:56] Conflicting single bond directions around double bond at index 28.
+[21:15:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:15:58] Conflicting single bond directions around double bond at index 4.
+[21:15:58]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:05] Conflicting single bond directions around double bond at index 3.
+[21:16:05]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:05] Conflicting single bond directions around double bond at index 3.
+[21:16:05]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:05] Conflicting single bond directions around double bond at index 3.
+[21:16:05]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:14] Conflicting single bond directions around double bond at index 9.
+[21:16:14]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:36] Conflicting single bond directions around double bond at index 15.
+[21:16:36]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:37] Conflicting single bond directions around double bond at index 15.
+[21:16:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:16:37] Conflicting single bond directions around double bond at index 15.
+[21:16:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:16] Conflicting single bond directions around double bond at index 28.
+[21:18:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:16] Conflicting single bond directions around double bond at index 28.
+[21:18:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:16] Conflicting single bond directions around double bond at index 28.
+[21:18:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:16] Conflicting single bond directions around double bond at index 28.
+[21:18:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:16] Conflicting single bond directions around double bond at index 28.
+[21:18:16]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:24] Conflicting single bond directions around double bond at index 8.
+[21:18:24]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:24] Conflicting single bond directions around double bond at index 8.
+[21:18:24]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:18:25] Conflicting single bond directions around double bond at index 8.
+[21:18:25]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:20:46] Conflicting single bond directions around double bond at index 12.
+[21:20:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:20:46] Conflicting single bond directions around double bond at index 12.
+[21:20:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:20:46] Conflicting single bond directions around double bond at index 12.
+[21:20:46]   BondStereo set to STEREONONE and single bond directions set to NONE.
+0,0.48,[C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][e[C][S@@][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsillon][F][Branch1_3][epssilon][F][F][C][=C][Ring1][Branch2_2][=N][Ring1][=N][epsilon][F][F][C][=C][RS][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][PH+][Branch1_2][epsilon][F][C][=P][C][Branch1_2][#C][C][=C][C][=C]ch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][epsilon][/O][N][=NH+][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][epsilon][F][F][C][=C][Ri][S@][Ring1][=N][/N-][C][/O+][Branch1_3][ep][Ring2][epsilon][F][Ring1][Branch1_2][C]Branch1_3][epsilon][Cl][N][N][=C][Ring2][epsilon][F][RinBranch2_2][S][Branch1_2][nch1_1][C][=C][Ring1][=N],1000,SELFIES,True
+1,0.60,[C][C][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][\S@][/N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][\C@@H][=C][Ring1][N][C][=C][Ring1][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F]n][C][C][=C][Ring1][Branch1_2][=N][N][Ring1][F][O][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][=NH2+][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][/O+][F][C][=C][Ring1][Branch2_2],1000,SELFIES,True
+2,0.62,[Cranch1_3onnRing1hBrN][NH+][Ring1][NH+][N][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][eppsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C[Branch1_3i[epsilo_2][P+][=O][C][=C][Ring1][N][C][=C][C][=C][Branch1_3][eipsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+3,0.51,[N][S][Branch1_1][epsililon][=O][Branch1_3][=P][=O][C][=C][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][CRing1][Branch2_2][=C][Ring1][=N][C@@H][=C][Branch1_3][][=C][Branch1_3][epnch1_2][C][=C][Ring1][=C],1000,SELFIES,True
+4,0.53,[N][/S@][Branch1_2][#C][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][Branch2_2][Branch1_2][=S+][=O+][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][=S@][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][O][epsilon][=C][Branch1_3][epsilon][=O][C][=C][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C]][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][=C][N][Ring1][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1__2][/Cl][Branch2_2][CO][psiranch1_3][epsilon][C][C][=CH][#C][C][C][=C][Ring1][Branch1_2][=C][N][Ring1][#C][/C@H][C][Branch1_2][][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][=S@][F][F][C][=C][Ring1][Branch2_2][=Branch2_2][=C][Branch1_2],1000,SELFIES,True
+5,0.65,[C][Branch1_3][=S][=N][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Ring1][F][Branch1_2][C][[Branch2_2][C][Branch1_2][eps[epsilon][F][Branch1_3][/S][F][F][N-][g1][Branch2_1][S][Braning][epsilon][=O][C@@][Ring1][=C][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+6,0.56,[Branch2_3][epsilon][#N][Ring2][Branch1_3][eps[N][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][=C][RingRing1][S][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][PH][C][C][=C][Ring1][Branch1_2][epsilon][#N][Ring2][/O][eping1][Branch2_2][N][=C][R][Cl][C][=C][Ring1][/C,1000,SELFIES,True
+7,0.58,[C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsin][=O][=O][=C][C][=C][Ring1][Branch2_2][N][N+][Branch1_3][eps][NH3+][\C@@H][C@@][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsiloon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=C][epsilon][=O][C][Bpsilon][C][C][=C][Ring1][Branch1_2][C][=C][Ring1][/N][C][=S+][Ring2][epsilon][Branch1_3][C][epsilon][Branch1_1][epsi][epsilon][=O][O][=C][Ring1]h2_2][\S-][Ring1][=N][#C][epsilon][=O][C][=C][C][Branch1_2][Branch2anch2_2][\S][Branch1_2][epsilpsilon][=O][=O][=C][C][=C][Ring1][Branch2_2][N][C][Branch1_3][eps][=O][S-][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][C@][epsilon][=O][C][=C3][epsilon][Ring2][C][Ring1][=N][=C][epsilon][=O][C][=C][C][Branch1_2][[Branch2_2],1000,SELFIES,True
+8,0.70,[NBranchra[Hn][=O][C][=C][C][Branch1_3][Branch2_[hanch1_1][=S][Branch1_h2_ilon][=O][C][=C][C][=C][Br[=C[S@@+[R[Ring1][N][N][N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_1][C][Branch1_3][C][=C][C][=C][Branch1_3][ep][#C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+9,0.58,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][Branch2_2][N\I][C][=N][N][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][\C][C][=C][Ring1][Branch1_2][C][=C][Ring1][F][Branch1_2][epsilo[Ring1epsilon][N][Branch1_1][epsanch1_3][epsilon][C][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][Branch2_2][N][C][P@@H][N][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][\C][O],1000,SELFIES,True
+10,0.75,[C][C@][Branch1_3][=S][=N][N][C][=C][/C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epF][=O][=O][C][=C][Ring1][Branch2_2][Branch1_3][epsil[=Ring1][Branch1[Branch1_3][epsil[=Ringpsgpsh[][Branch1][Branch2_2][Branch1_3][epsil[=Rin=C][C][=C][Ring1][O][Branch1_1][=C][Ring1][NH2+][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][C][NH2+][=C][snch1_2]h11_2][=C][S-][Ring1][#C][\S-][C][=C][C][=C][Branch1_3][epsilon][F][Cch1_1][epssilon][F][F][C][=C][Ring2][epsilon][Branch2_2][C][C][Ring2][epsilon][O],1000,SELFIES,True
+11,0.56,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][/C@][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][Branch2ch2_2][S@][Branch1_1][[#C[2][N][Branch2_3][\S2_2][Branch2h1_3][\O][Branch1__22+][N][Branch2_3][\S@][Ring2h2_2ranch2_3][\S@][Ring2][C][Branch1_][Cing1][Branch2_2][C][/N][=C][Branc[Ring1][B+][Branch2_2][N][C][=C][C][=C][Branch1_3][\N][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+12,0.59,[C][C][Branch1_3][=S][=N][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][/F][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C@][=[Ring1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][F][C][Ring2][S@@+][BraNsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][/C][epch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][\S@][F][C][Ring2][][BraN][=C][C][F][Branch2_2],1000,SELFIES,True
+13,0.56,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][CBranch1nchranch1_2][eps][/C@@][Branch1_3][epsilon][=N][C][=C][Ring1][Branch[=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=Ch1_2][eps_1][S][Branch1_1][epsilon][=O][Branch1_3][][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch[=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][][S][Branch1_1][epsilon][=O][Branch1nch2_2][C][Bilon][C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][][S][Branch1_1][/NH2+][=O][Bra][Branch1_3][epsilon][P@][C][=C][Ring1][Branch[=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_anch[=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][/NH-][FF][Bran][=C],1000,SELFIES,True
+14,0.54,[N][=S@][Branch1_1][epsilon][=O][Branch1_3][[/C@][N][\N+][=C][N][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][=C][Ring1][N][C][=C][C][=C][Branch1_3][epsilon][/C][C][=C][Ring1][Branch1_2][epsilon][ng1][Brannch1ng1][Branch1_2][ep1][Branch1_2][epsilon][F][Br_3][eBranch2_2],1000,SELFIES,True
+15,0.58,[C][/C@@][Branch2_2][epsilon][=N][C][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][/N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][\C][=C][Ring1][N][C][=C][Ring1][=C][Branch2_2][Ring2][C][Ring1][Branch1_2][F][C][C][=C][C@@H][=C][Ring1][N][C][=C][Ring1][=C][Branch2h1_1][epsilon3][epsilon][nch2_2][Ring2][epsilon][Branch1_22][C@@H][N][Branch1_1][epsilon3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring][=C][Branch2_3][Ring1][epsilon][C][N][Branch1_3][#C][C][=C][C][=C][\C][Branch1_2][Branch2_2][C][Branch1_2anch1_2][epsiloepsich1_2][/NH-][C][\N-][epsilon][lon][=N][C][=N][N][C][Branch1_2][#C][=PH2][][N][Ring1][S+][C@@][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][R[Branch1_3][epsch1_3][epsilon][=O][N][Ring1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][B2][e=C][Ring1][/Cl][Branch2_2][Ring2][Csilon][F][F][=C][C][=C][Ring1][=N][R[Branch1_3_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][[C][=C][Riilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/C@H][=C][Ring1][N][C][=C][Ring1][=C][Bra1_3][/S@][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+16,1.00,[C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][=C][C][=C][Ring1psilRing1][#C][N][N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_1][C][=C][C][=C][Branch1_3][epsililon][C][C][=C][Ring1][Branch1_2][epsilon][F][Br[/Br][epsilon][O][C][Branch1_3][[Branch1_2][C][=C][Ring1][F][C][=C][C][=C][C][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=C][PH+][epsilon][O][C][Branch1_3][epsilon][=O][C][Branch1nh2_C][=C][C][eps[Branch2_2][/O+][BraC][C][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][N][N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_1][C][Brpsililon][C][C][C][Ring1psilRing1][#C][N][N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][S-][C][=C][Ring1][Branch2_1][C][Branch2_2][/O+][BraC][C][Branch1_3][epsilon][/C@][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][N][N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_1][C][Branch2_2][C][=C][/Br][epsilon][Br][C][Branch1_3][Branch1_2][C][=C][Ring1][F][C][=C][C][=C][C][epsil][=O][C][=C][C][=C][Branch1_3][epsililon][C][P+][=C][Ring1][Branch1_2][epsilon][F][Brsilon]on][=N][F],886,SELFIES,True
+17,0.63,[N][Branch1Ring1][P+][N][Ring1][Bra][Branch1_3][S][Expl/Ring1][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epn][N][Branch1_1][epsisilon][=O][=O][C][=C][Ring1][Branch2_2][Branchc1][Branch2_2][Branch1][[=C][Ring1][Branch1_1=C][#N][=C][Branch1_3[Ring1][S][C[Branchc1][\S-][Branch1_Bh1_[=C][/NH2+][epsilo[Ring1][ch2_2][Branch1ing1][/ranch2_2][Branch1_h1_1][epsilon][Ring1][Branchlon][[Branch1_2][\NH+][Ring11][/C@][Ring_2ing1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][eps1][F][anch1_2an[Branch2_2][Br+][=C][C][=C][Branch1_3[Ring1Ring1][B[Branch2_2][Branch1_2][[=C][Ring1][Branch2_2][Branch1Branch1_2][Branch1_3][Ring1][/O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+18,0.63,[CRing][N-][Branch1_2][CH2-][F][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epson][=N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][\I[Branch1nch1h1_3][C][Ring1][=C][Branch[1][F][Branch][Branch1_1][Ring1][BBranchBrBranch1_3][Branch2Branch][Branch1_2][epsilon][=anch1Ring1[Brancpsilon][P@@][Branch1_3][epsilo[epsilonganch][Branch1_2][epsilon][=anch1Ring1][=C][Branch1_2][Ri=C][Branch1ranchh1_2][Ri=C][Branch1_3][BrC][Branch1_2Ring1][=C][Branch1_silo[epsilong1][F][C][Branch1_2][epsilon][F][Branch1_3][epsilong1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+19,0.53,[N][S][Branch1_1][epsilon][=O][Branch1_3][Branch2_2][=O][C][=C][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=C][C][=C][Branch2_3][ep][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+20,0.60,[C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilopsilon[=lonpsilon][=O][=O][=C][C][=C][Ring1][Branch2_2][N][C][Branch1_2][ep[=C][C][=C][C][Branch1_2][#C][/C@@][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][/S][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=SH+][Ring1][=N][epsilon][=O][Cnch1_2][epsilon][F[=C][=SH+][Branch2_2][=C][2][C][=C][Ring1][C]],1000,SELFIES,True
+21,0.60,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][/N+][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][Branch2Ring1][Branch1_2][C][=C][C][=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][\O][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+22,0.63,[C][Branch2_2][epsilon][=N][C][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/C@H][=C][Ring1][N][C][=C][Ring1][=C][Branch1_2][epsilon][F][Branch1_3][F][F][F][C][=_2][C][Branch1n][F][Branch1_3][F][F][F][C][=C][=NH2+][[F][F][C][=Cranch1_3][ranch2_2][C][Branch1_2][epsilosilon][C][Branch1_1][epsilog1][Branch2_2],1000,SELFIES,True
+23,0.60,[C][C@][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][#N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][C@H][=C][Ring1][N][C][=C][Ring1][=C][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][#N+][=N][C][=N][#N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][C@H][=C][Ring1][N][C][=C][RinRing1][=C][=C][Ring2][epsilon][S][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][[C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C]2_2][S][B2_2],1000,SELFIES,True
+24,0.61,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C[Branchh1_1][\I][Branch1_1][epsi][C][=C][N][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][=C][Ring1][N][C][=C][C][=C][Branch1_3][epsilon][=C][C][=C][Ring1][Branch1_2][Branch1_2][O],1000,SELFIES,True
+25,0.61,[Ring1][Branch1_1][N][Ring1][Branch2_1][S][Branch1_1][=O+][=O][Branch1_3][epsi[epsilon][=O][Branch1_1][epsiC][C][=C][N][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][=C][Ring1][N][C][=C][C][=C][Branch1_3][epsililon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+26,0.63,[O][=S][Branch1_1][epsilon][=O][Branch1_3][nch2_2][/N][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_3][O][=C][Ring[Ring1][Branch1_1][CBranch1_11][Bra][C][=C][C][=C][Branch1_3][eH2-][\F][N][Ring1][Branch1_1][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][Ring1[Ring1][Br1][Branch1_1][C][=C][C][=C][Branch1_3][epsilon][#C][C][=C][Ring1][silon][Ring1[Ring1][Branch2_2][C][Ring1][#CRing1][Branch1_2],1000,SELFIES,True
+27,0.49,[[Branch2_[Branch1_3][e+[C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][e][C][=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2],1000,SELFIES,True
+28,0.66,[C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][=C][C][=C][Ring1][Branch2_2][Branch2_2][/Br][Branch2_2][C][Branch1_3][epsiOnh2_2][Branch2][][nch1_3[Ring][N][Ring1][=P][C][=C][C][=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][Branch2silon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+29,0.51,[N][S][Branch1_1][[epsilon][=O][Branch1_3][epsilon][=O][C][=C][/N][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][/Br][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=C[Branch1epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+30,0.61,[C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][=C][C][=C][Ring1][Branch2_2][C][=C][C][=C][Branch1_3][PH+][C][C][=C][Ring1][Branch1_2][Branch1_3][Bra][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][/N][=C][Ring1][Branch2_2],1000,SELFIES,True
+31,0.61,[P][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsin][#N][Branch1_1][/O][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][PBranch/C][=C][Ring1][r][Ring1][N][PBranch/C][=C][Ring1][=PH2][PBranch1_33h1_3[Ring1][/N+][Ring2][eps][CBranch[BraC@@H][PBrC][Ring1][N][PBranch/C][=C][Ring1][N2_2][PBranchRing1][N2_2][C][Branch1_2][epsilon][F][Branch1_3][ilon][F][Branch1_3][epsBranch1_3][epsgRing1][/C][PBranch1_3][=NH2+][C][=C][C][=C][Branch1_3][=N[Ringsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+32,0.51,[N][S][Branch1_1][epsilon][=O][Branch1_3][Branch1_2][=O][C][=C][\on][O][C][=C][C][=C][O][C][Branch1_2][O][C][=C][C][=C][Branch1_3][epsilon][#C][C][=C][Ring1][Branch1_2][#C][C][=C][Ring1][=N][Bran[Branch1_2gpsilon][F][[Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C]=N][C][=C][Ring1][=C][BranchC][R[F][][Branch1_2][epsilon][C@@][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][Branch2_1][C][=C][BranchC][Branch1_3][epsilon][#CBranch1_2][=N][C][Ring1][F][=C][Ring1][=N],1000,SELFIES,True
+33,0.64,[C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][=C][C][=C][Ring1][Branch2_2][N][S@@+][P@@][rancanchRing1][Branch1[C=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][\S][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][Branch1_3][=C][Ring1][[C][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+34,0.60,[O][=S][Branch1_1][Br][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][O-][F][F][C][=C][Ring1][Branch2_2][Branch\Cch2_2][Branchranch1[Ring1][Branch2_2][BrBra[=O][Branch1][P][Ringng1][Branch2_2][BrRing1][Branc][Branch1][NH+][Ringng1][Branch2_2][Bnch1[Ring1nch1_1][/C][N][Branch2_2][epsilon][Ring2][Ring1][Ring2][C][=C][C][=C][Ring1][Bra[=O][Branch1][NH+][Ringng1][Branch2_2][BrRing1][Branc][Branch1][NH+][Ringng1][Branch2_2][Branchranch1_][=C][Ring1][Branch1_1][C][=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][Branch2n][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+35,0.59,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][=N][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring1][Branch2_2][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+36,0.62,[O][=S][Branch1_1][epsilon][/C@@H][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][/O][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][PH][Branch1_2][epsep[=C][N][=C][C][=C][Branch2_3][Ring2][=C][Ring1][Branch1_1][#N][=N][N][Ring1][Branch1_1][C][=C][C][=C][Branch1_3][epsilon][#C][C][=C][Ring1][Branch1_2][epsilon][C][N][BranC][Ring1][BraC][Branch1_3][Branch2_2][S][Branch1_2][e[C][BpsRing1][Ring[epsilon][O][CC][Ring1][Branch2_C][=C][C][=Cilon][F][F][C][=C][Ring1][C][=C][Ring1][Br1][F][C][Branch1_3][epsilon][=O][Branch1_1][epsilon][=O][P][epsC][C][Branch1_2][epsillon][C][=N+][C][C][=C][C][=C][C][Branch2_2][epsilon][=C][N][N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_1][C][=N][N][=C][Branch1_3][F][C][=C][C][=C][C][=C][Ring1][Branch1_1][O][C][O][Ring1][O][=C][Ring2][epsilon][Branch2_2],1000,SELFIES,True
+37,0.55,[C][=C][C][Branch2_2][epsi[Branch1_2][epsilon][C][=C][C][=C][Ring1][Branch1_2][N][C][=N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][O][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring1][Branch2_2][S][Branch1_1][epsilon][=O][Branch1_3][epsilonh1_3][epsilon][=O][C][=C][C][=C][Branch1_3][=N][C][N][C][Branch1_3][epsilon][=O][C][][epsilo[=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring1][Branch2_2][S][Branch1_1][epsilon][=O][Branch1_3][epsilonh1_3][epsilon][=O][C][=C][C][=C][Branch1_3][=N][C][N][C][Branch1_3][epsilon][=O][C][=C][C][=N][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N],1000,SELFIES,True
+38,0.66,[C][=C][C][Branch1_2][Branch2_2][=S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][=C][C][=C][Expl/Ring1][Branch2_2][C][=C][C][=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][Branch2_3][Branch2_2][C][Branch1_2][\S@][][=C][C][=C][Branch1_3][Branchch1_1][C][Branch1_2][/NH2+][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+39,0.54,[C][C][Branch1_3][=S][=C][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][NH+][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][\S-][Branch1_2][][\S-][Branch2_1][epsilon][=C][N][=C][Branch1_3][Branch[Branch2_2][=C][Ring1][=N][ch1_3][epsilon[=O][S@@][\N-][#C][][F][C][=C][Ring1][Branch2_2][=N-][Branch2_2][=C][Ring1][C@H][=ranch2_N][C][=C][Branch1_3][epsilon][Cl][N][=C][][N][Ring[=C][Expl/Ring1][Branch2_2][C][Branch1_2][][F][Branch1_3][epsilon][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,True
+[21:31:28] Conflicting single bond directions around double bond at index 1.
+[21:31:28]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:31:32] Conflicting single bond directions around double bond at index 1.
+[21:31:32]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:31:40] Conflicting single bond directions around double bond at index 1.
+[21:31:40]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:31:42] Conflicting single bond directions around double bond at index 1.
+[21:31:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:31:45] Conflicting single bond directions around double bond at index 1.
+[21:31:45]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:31:59] Conflicting single bond directions around double bond at index 1.
+[21:31:59]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:21] Conflicting single bond directions around double bond at index 1.
+[21:32:21]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:33] Conflicting single bond directions around double bond at index 9.
+[21:32:33]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:33] Conflicting single bond directions around double bond at index 9.
+[21:32:33]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:42] Conflicting single bond directions around double bond at index 9.
+[21:32:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:42] Conflicting single bond directions around double bond at index 9.
+[21:32:42]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:44] Conflicting single bond directions around double bond at index 9.
+[21:32:44]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:32:44] Conflicting single bond directions around double bond at index 9.
+[21:32:44]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:00] Conflicting single bond directions around double bond at index 1.
+[21:33:00]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:07] Conflicting single bond directions around double bond at index 1.
+[21:33:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:08] Conflicting single bond directions around double bond at index 1.
+[21:33:08]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:17] Conflicting single bond directions around double bond at index 1.
+[21:33:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:22] Conflicting single bond directions around double bond at index 1.
+[21:33:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:25] Conflicting single bond directions around double bond at index 1.
+[21:33:25]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:27] Conflicting single bond directions around double bond at index 1.
+[21:33:27]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:35] Conflicting single bond directions around double bond at index 9.
+[21:33:35]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:35] Conflicting single bond directions around double bond at index 9.
+[21:33:35]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:37] Conflicting single bond directions around double bond at index 1.
+[21:33:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:39] Conflicting single bond directions around double bond at index 1.
+[21:33:39]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:43] Conflicting single bond directions around double bond at index 1.
+[21:33:43]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:44] Conflicting single bond directions around double bond at index 1.
+[21:33:44]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:51] Conflicting single bond directions around double bond at index 9.
+[21:33:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:33:51] Conflicting single bond directions around double bond at index 9.
+[21:33:51]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:11] Conflicting single bond directions around double bond at index 1.
+[21:34:11]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:12] Conflicting single bond directions around double bond at index 1.
+[21:34:12]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:17] Conflicting single bond directions around double bond at index 9.
+[21:34:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:17] Conflicting single bond directions around double bond at index 1.
+[21:34:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:17] Conflicting single bond directions around double bond at index 9.
+[21:34:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:18] Conflicting single bond directions around double bond at index 1.
+[21:34:18]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:19] Conflicting single bond directions around double bond at index 9.
+[21:34:19]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:20] Conflicting single bond directions around double bond at index 9.
+[21:34:20]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:22] Conflicting single bond directions around double bond at index 9.
+[21:34:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:22] Conflicting single bond directions around double bond at index 1.
+[21:34:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:22] Conflicting single bond directions around double bond at index 9.
+[21:34:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:25] Conflicting single bond directions around double bond at index 1.
+[21:34:25]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:29] Conflicting single bond directions around double bond at index 9.
+[21:34:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:29] Conflicting single bond directions around double bond at index 9.
+[21:34:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:31] Conflicting single bond directions around double bond at index 9.
+[21:34:31]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:31] Conflicting single bond directions around double bond at index 9.
+[21:34:31]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:49] Conflicting single bond directions around double bond at index 1.
+[21:34:49]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:56] Conflicting single bond directions around double bond at index 9.
+[21:34:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:34:56] Conflicting single bond directions around double bond at index 9.
+[21:34:56]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:01] Conflicting single bond directions around double bond at index 1.
+[21:35:01]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:02] Conflicting single bond directions around double bond at index 9.
+[21:35:02]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:03] Conflicting single bond directions around double bond at index 9.
+[21:35:03]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:03] Conflicting single bond directions around double bond at index 1.
+[21:35:03]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:06] Conflicting single bond directions around double bond at index 9.
+[21:35:06]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:07] Conflicting single bond directions around double bond at index 9.
+[21:35:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:07] Conflicting single bond directions around double bond at index 1.
+[21:35:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:08] Conflicting single bond directions around double bond at index 9.
+[21:35:08]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:08] Conflicting single bond directions around double bond at index 9.
+[21:35:08]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:17] Conflicting single bond directions around double bond at index 9.
+[21:35:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:17] Conflicting single bond directions around double bond at index 9.
+[21:35:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:25] Conflicting single bond directions around double bond at index 1.
+[21:35:25]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:29] Conflicting single bond directions around double bond at index 9.
+[21:35:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:29] Conflicting single bond directions around double bond at index 9.
+[21:35:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:31] Conflicting single bond directions around double bond at index 1.
+[21:35:31]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:34] Conflicting single bond directions around double bond at index 9.
+[21:35:34]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:34] Conflicting single bond directions around double bond at index 9.
+[21:35:34]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:38] Conflicting single bond directions around double bond at index 1.
+[21:35:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:35:54] Conflicting single bond directions around double bond at index 1.
+[21:35:54]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:03] Conflicting single bond directions around double bond at index 1.
+[21:36:03]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:10] Conflicting single bond directions around double bond at index 9.
+[21:36:10]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:10] Conflicting single bond directions around double bond at index 9.
+[21:36:10]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:21] Conflicting single bond directions around double bond at index 1.
+[21:36:21]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:21] Conflicting single bond directions around double bond at index 1.
+[21:36:21]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:22] Conflicting single bond directions around double bond at index 1.
+[21:36:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:36:33] Conflicting single bond directions around double bond at index 9.
+[21:36:33]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:01] Conflicting single bond directions around double bond at index 1.
+[21:37:01]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:07] Conflicting single bond directions around double bond at index 9.
+[21:37:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:07] Conflicting single bond directions around double bond at index 9.
+[21:37:07]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:29] Conflicting single bond directions around double bond at index 9.
+[21:37:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:29] Conflicting single bond directions around double bond at index 9.
+[21:37:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:31] Conflicting single bond directions around double bond at index 9.
+[21:37:31]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:31] Conflicting single bond directions around double bond at index 9.
+[21:37:31]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:37] Conflicting single bond directions around double bond at index 1.
+[21:37:37]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:38] Conflicting single bond directions around double bond at index 1.
+[21:37:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:38] Conflicting single bond directions around double bond at index 1.
+[21:37:38]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:39] Conflicting single bond directions around double bond at index 9.
+[21:37:39]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:39] Conflicting single bond directions around double bond at index 9.
+[21:37:39]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:41] Conflicting single bond directions around double bond at index 1.
+[21:37:41]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:45] Conflicting single bond directions around double bond at index 1.
+[21:37:45]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:37:54] WARNING: not removing hydrogen atom without neighbors
+[21:37:54] WARNING: not removing hydrogen atom without neighbors
+[21:38:10] Conflicting single bond directions around double bond at index 9.
+[21:38:10]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:21] Conflicting single bond directions around double bond at index 1.
+[21:38:21]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:22] Conflicting single bond directions around double bond at index 9.
+[21:38:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:22] Conflicting single bond directions around double bond at index 9.
+[21:38:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:22] Conflicting single bond directions around double bond at index 9.
+[21:38:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:22] Conflicting single bond directions around double bond at index 9.
+[21:38:22]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:29] Conflicting single bond directions around double bond at index 9.
+[21:38:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:29] Conflicting single bond directions around double bond at index 9.
+[21:38:29]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:47] Conflicting single bond directions around double bond at index 9.
+[21:38:47]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:38:48] Conflicting single bond directions around double bond at index 9.
+[21:38:48]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:04] Conflicting single bond directions around double bond at index 6.
+[21:39:04]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:04] Conflicting single bond directions around double bond at index 6.
+[21:39:04]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:09] Conflicting single bond directions around double bond at index 9.
+[21:39:09]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:10] Conflicting single bond directions around double bond at index 1.
+[21:39:10]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:11] Conflicting single bond directions around double bond at index 9.
+[21:39:11]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:11] Conflicting single bond directions around double bond at index 9.
+[21:39:11]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:15] Conflicting single bond directions around double bond at index 9.
+[21:39:15]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:15] Conflicting single bond directions around double bond at index 9.
+[21:39:15]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:17] Conflicting single bond directions around double bond at index 9.
+[21:39:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:39:17] Conflicting single bond directions around double bond at index 9.
+[21:39:17]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:40:15] Conflicting single bond directions around double bond at index 1.
+[21:40:15]   BondStereo set to STEREONONE and single bond directions set to NONE.
+[21:40:55] WARNING: not removing hydrogen atom without neighbors
+[21:40:55] WARNING: not removing hydrogen atom without neighbors
+0,0.53,[C][C][Branch1_3][=S][Branch1_3][Branch1_2][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][C][=C][N][Ring1][Ring2][Branch1_2][=C][\N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilonepsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][\C][epsilon][Fepsilon]][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N]_3][Branch2_2][C][B[C][=C][Ring1]S][Branch1_1][epsilon][=O][Branch1_3][#C][C][lon][C][N][Branc=C][N][Ring1][Ring2][Branch1_2][=C][\N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilonepsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][epsilon][Fepsil=C][Branch1_3][Branch2_2][C][B[C][=C][Ring1]S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=Ch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][N]h1_[Branch2_Cl][C][=C][Ring1][Branch1_2][C][=C][N-][=C][N][=C][Ring1][Brah1_3][epsilon][C][N][\Sepsilon]][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N]_3][Branch2_2][C][B[C][=C][Ring1]S][Branch1_1][epsilon][=O][Branch1_3][#C][C][lon][C][N][Branc=C][N][Ring1][Ring2][Branch1_2][=C][\N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilonepsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][epsilon][Fepsil=C][Branch1_3][Branch2_2][C][B[C][=C][Ring1]S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_ranch1_[Branch2_2][C][Bra1_2][C][Branch1_3][epsilon][C][C][C][Branch1_2][eping1][Branch1_2][C][Branch1_2][C][=N][C][=C][Ring1][=C][Ring1][Branch1_1],1000,SELFIES,False
+1,0.56,[N][SRing1][BN][Ring1][CH-][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch2_3][epsilon][Branch1_1][C][=N][N][C][Branch1_3][N][#C][\C][=C][Ring1][Ring2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][O][C][=C][Ring1][=C][epsilon][N/Cl][=C][Rira[Branch1_3][epsilon][=O][N][C][Bnch1_3][epsC][=C][Ring2][epsil][C][=C][Ring1][Branch1_2]_3][CcC][C][=C][C]epsilon][C][C][=C][Ring1][Branch1_2]_3][CcC][C][=C][C]epsilon][C][=N+][Branch1_3][S][C][C][=C]O][Ring2][epsilon][F][F][C][=C][Ring1][O][C][=C][Ring1][=C][=O][N][C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][Branch1_3][epsilo][][=C][Ring1][/Br][=N][C][Ring1][F]ranch1_3][epsilon][=O][C][C][=C][C][=C][C][/S][Ring1][Branch1_1][C][=C][Ring1][=N],1000,SELFIES,False
+2,0.49,[O][Branch1_3][#C][C][=C][C][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][#N][Ring1][Branch2_2][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][\C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][eps[=C][Branch2_3][Ring1][epsilon][ranch2_3][Ring1][epsilon][C][N][Branch1_3][#C][C][=C][C][=C]=O]ilon][=O][=O][C][=C][Ring1][Branch2_2][C][C@@H][C][=C][C][=C_1][epsilon][=Osilon][F][F][=C][Ring1][\N+][/N-][Branch1_1][P@@][=O]ilon][=O][=O][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilg1][Br][epsilon][F][Branch1_3][epsilon][F][g1][Branch1_2][=O][C][=C][C]Ring1][Br][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring1][Branch2_2][/N-][Brnch2_2][epsilon][Branch1_3][C][=C]ilon][N][Bransilon][=O][C][=C][C][=C][Branch1_3][epsilon][\C][C][=C][Ring1][Branch1_2][=O][C][=C][Ring1][Br][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring1][Branch2_2][/N-][Branch1_1][P@@][=O]ilon][l][C][=C][Ring1][/NH2+][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][][epsilon][=O][Branch1_3][epsilon][=O][=C][Ring1][Branch1_2][=O][/C][=P][C][=C][C][Branch2_2][Ring1][Ring2][C][=N][N][C][Branch2_2][epsilon][Branch1_3][C][=C]ilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][C][=C][C][=C][Ring][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][=O][C][=C][C][=C][C][Branch2_2][Ring1][Ring2][C][=N][N][C][Branch2_2][epsilon][Branch1_3][C][=C]ilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][C][=C][C][=C][Ring1][N][C][=C][Ring1][=C][=C][Ring2][eC][=C][C][=C][Branch1_3][Branch2_2][S][Branc=O][C][=C][C][=][epsilon][=OBranch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][=C][N][Ring1][#C][C][C][=C][C][=C][Branch1_3][epsilon][F][C][=C][Ring1][Branch1_[Branch1_3][epsilon][=O][N][O-][=N][C][=C][Branch1_3][epsilon][S][N][=C][N][=C][Ring1][Branch1_2][Ring1][Branch2_2][C][=C][Ring1][=C],1000,SELFIES,False
+3,0.41,[O][=S][Branch1_1][O-][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][epsilon][=O][N][C][=C][C][=C][N][=C][Ring1][Branch1_1][C][=C][Ring1][=C],1000,SELFIES,False
+4,0.40,[C][C][=C][/C@@H][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][ch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][C]Ring1][Branch_3][BraF][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][ch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][C]Ring1][Branch_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][ch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][C][Brang1][C][=C][S][Branch1_1][epsilon][=O][Branch1_3][epsilonh1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][=C][Ring1]1_1][epsilon][=O][Branch1_3][epsil+][C][=C][S@@+][=C][C][Branch1_2][epsilon][C][=C][C][=C][Ring1][Branch1_2][N][C][Branch1_3][epsilon][=O][N][Ring1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,False
+5,0.52,[C][=C][N][Branch1_3][#C][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][C][=C][Ring2][C][=C][#N][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][OC][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][Branch1_1][=C][N][C[C][=C][C][=C][Branch1_3][=N][C][Branch1_3][epsil[=C][Branch1_3][Branch2_][C][=C][Ring1][=C],1000,SELFIES,False
+6,0.43,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=N][\C@H][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1Ring1][=Nnch1_1][epsilon][=O][Branch1_3][=S@][=O][C][=C][C][=C][Branch1_ch1_1][epsilon][=O][Bralon][C][=C][C][=C][Ring1][Branch1_2][N][C][Branch1_3][epsilon][=O][N][Ring1][F][C][=C][C[#CC][=C][C][=C][=N][CF][=C][Ring1][BranN][C][Branch1_3][epsilon][=O][C][S][C][=C][C][=C][Cng1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][=O+][epsilon][F][C][=C][/NH+][Branch1_2][C][=C][Ring1][F][C][Branch1_3][epsilon][=O][\S@][C][C][N][Branch1_3][N][C][C][C][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][Ring1][Branch1_2][C][C][Ring1][O][C][=C][Ring2][epsC][Ring1][Branch1_2][C][C][Ring1][O][C][=C][Ring2][epsilon]2][epsilon][C][=C][C][=C][Ring1][Branch1_2][N][C][Branch1_3][epsilon][=O][[epsilon][=O][C][=C][C][=C][Branch1_3][/S-][C][BraNH+][Branch1_2][C][=C][Ring1][F][C][Branch1_3][epsilon][=O][N][C][][epsnch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][=on][C][C][=C][Ring1][Branch1_2][epsilon][F][C][=C][/NH+][Branch1_2][C][=C][Ring1][F][C][Branch1_3][epsilon][=O]n][=O][Branch1_3][epsilon][=O][C][=C][C][[Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch2_3][epsilon][S][C][C][N][C][\Br][CBranch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1Ring1][=Nnch1_1][epsilon][=O][Branch1_3][=S@][=O][/C@@][=C][C][=C][Branch1_3][=N][C][Branch1_3][epsilon][=OBranch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][=on][C][C][=C][Ring1][Branch1_2][epsilon][F][C][=C][/NH+][Branch1_2][C][=C][Ring1][Fepsilon][=O][Branch1_3][epsilon][=O][Expl/Ring1][=N][N][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branchanch1_2][epsilon][F][C][=C][/NH+][Branch1_2][C][=C][Ring1][F][C][Branch1_3][epsilon][=O]n][=O][Branch1_3][epsilon][=O][C][=C][C][[Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch2_3][epsilon][S][C][C][N][C][=N][C][=C][Branch1_3][O][C][=C][C][=C][C][Branch1_2][epsilon][F][=C][Ring1][Branch1_2][N][=N][N][Ring1][F][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][Ring1][S][C][=C][Ring2][epsilon][F],1000,SELFIES,False
+7,0.49,[N][S][Branch1_1][\N][=O][Branch1_3][Ring1][=O][C][C][=C][C][=C][Branch1_3][BrancC][=C][=C][=C][Ring1][Branch1_2][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][g2][C][=C][N][=C][Ring1][Branch1_[ep[F][F][C][=C][Ring1][=N][Ring1][=ranch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][F][Branch1_3][epsilon][Branch1_2][F][C][C][=N+][S+][C][=C][Ring1][N][N][=C][Branch1_3]h2_3][ep[Fh1_3][epsilon][Br][C][=C][Ring1][Branch1_2][C][Ring1][F][=S][C][=C][Ring1][=Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][g2][C][=C][N][=C][Ring1][Branch1_2][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsi[Branch1_2][epsilon][Fh1_3][epsilon][Br][C][=C][Ring1][Branch1_2][C][Ring1][F][=S][C][=C][Ring1][=C],1000,SELFIES,False
+8,0.41,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][/C@][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][epsilon][O][C][=C][N][Branch1_3][Branch1_2][C][Branch1_3][epsilon][C][C][C][Branch1_2][epsilon][C][=C][Branch1_3][#C][C][=C][C][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring1][Branch2_2][C][Ring1][#C][=O][C][=C][Ring2][epsilon][O],1000,SELFIES,False
+9,0.41,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Branch2_3][epsilon][Branch1_1][C][=C][N][C][Branch1_3][N][=C][/C@@H][=C][Ring1][Ring2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Rin[Branch1_3][epsilon]=C][Ring1][=N][Ring1][=C][anch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][C][=C][Ring1][Branch1_[epsilon][=O][Branch1_3][epsilon][=O][N][C][=C][C][=C][\N][Branch2_2][][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][=N][N][C][Branch1_3][epsilon][#N+][N][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][=C][Ringranch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][psilon][=O][Branch1_3][epsilepsiln][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_[N][C][=C][C][=C][Branch1_3][C][C][=C][C][Expl/Ring1][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][F][C][=C][Ring1]][N][C][C][=Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][psilon][/NH-][Branch1_3][epsilepsiln][=O][Branch1_3][epsilon][=O]Ring1][Branch1_1][N][C][Branch1_2][1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][psilon][=O][Branch1_3][epsilepsiln][=O][Branch1_3][epsilon][=N][N][=C][Ring1][Ring2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][][Ring1][=C][][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilo2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C]n][F][Branch1_3][epsilon[=O][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Branch2_3][epsilon][Branch1_1][C][=C][N][C][Branch1_3][N][=N][N][=C][Expl\Ring1][Ring2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][C][[N][C][Branch1_3][N][=N][N][=C][Ring1][Ring2][=PH2][Branch1_2][epsilon][F][Branch1_3][epsilon][F][NH+][C][=C][Ring1][=N][Ring1][=C][C][aC][Ring1][=SH+,1000,SELFIES,False
+10,0.49,[O][=S][Branch1_1][epsilon][=O][Branch1_3][epsilon][N][C][=C][C][=C][\C@@H][C][Branch1_2][O][C][=C][C][=C][Branch1_3][epsilon][\C][C][=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1][=N][epsilon][FC[=C][Ring1][=P][=N][C][Ring1]Branch1_2][=N][C][[C][=C][C][=C][\C@@H][C][Branch1_2][O][C][=C][C][=C][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1][=N][epsilon][FC[=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1]C][C][=C][C][=C][\C@@H][C][Branch1_2][O][C][=C][C][=C][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1][=N][epsilon][FC][Ring1][=C][=C][Ring2][epsilon][Branch1_2][C][C][Rin[=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1][=N][epsilon][F][C][C][Branch2_2][epsilon][=N][C][=N][N][C][Branch1_2][#C][C][#N][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][C][F][epsilon][[Branch1_3][epspsilon][=O][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][Rch1_3][epsilon][\C][C][=C][C][=C][O][C][Branch1_2][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1][=N][ep][O][C][=C][C][=C][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][=N][\F][Ring1][F][=C][Ring1][=N][epsilon][FC[=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Ring1][=N][eps][O][C][Branch1_2][O][C][=C][C][=C][Branch1_3][Branch2_2][Cl][C][=Cing2][epsilon][=P][=N][epch1_2][C][=C][Ring1][=C],1000,SELFIES,False
+11,0.55,[C][C][Branch1_3][=S][=N][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][Branch2_2][C][#C][/C@@H][C][=C][Ring1][Ring2][Ring1][=N][Ring1][=C][epsilon][=O][C][C][\C@H][C][\C@@H][C][=C][O][Branch1C][Branch1_2][epsilon][C][Branch1_3][epsilon][=O][C][[C][S][N][=C][Branch1_3][epsilon][C][ch1_1][epsilo][Branch1_3][epsilon][C][N][Branch1_3][O][CRi_1][C][Br2+][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][epsilon][=O][C][C][\C@H][C][\C@@H][C][=C][O][Branch1C][Branch1_2][epsilon][C][Branch1_3][epsilon][C][C][[C][S][N][=C][Branch1_3][epsilon][C][N][P+][O][C][=C][C][=C][Branch1_3][epsilon][F][C][=C][Ring1][B][Branch1_3][epsiloilon][=O][Branch1_3][epsilon][=O][N][C][Branch1_3][epsilon][=O][N][C][=C][C][=C][N][=C][Ring1][Branch1_1][C][=C][Ri[Branch1_1][Ca[C][=C][Branch1_3][Branch2_2][=C][#C][=O][C][C][\C@H][C][=C][C][=C][C@][Branc[epsilsilon][C][N][=S][=NRing1][=C][=N+][=O][C][=C][Ring1][=][epsilon][=O][=O][C][=C][Ring1anch1_1][C][=C][Ring1][=C][C][=C][C][ranch2_2][C][=S@psilon][=O][][C][=C][Branch2_2][1][=C][epsilon][=O][C][C][\C@H][C][\C@@H][C][NH+][O][Branch1C][Branch1_2][epsilon][C][Branch1_3][epsilon][=S@@][C][[C][S][N][=C][Branch1_3][epsilon][C][N][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][/NH2+][C][=C][Ring1][B][Branch1_3][I][C][C][=C][C][=C][1_1][epsilon][=O][Branch1_3][=O][C][=C][Ring1][=][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][C][C][C][=C][C][=C][Ring1][/C\C@@H][C][=C][O][Branch1C][Branch1_2][epsilon][C][Branch1_3][epsilon][C][C][[C][S][N][=C][Branch1_3][epsilon][C][N][P+][O][C][=C][C][=C][Branch1_3][epsilon][F][C][=C][Ring1][B][Branch1_3][epsiloilon][=O][Branch1_3][epsilon][=O][N][C][Branch1_3][epsilon][=O][N][C][=C][C][=C][N][=C][Ri[Branch1_1][C][C@][Ri[Branch1_1][C][=C][Ring1][=C][C][=C][C][=C][2+][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][=N+][=O][C][=C][Ring1][/C@@H][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][C][C][C][=C][C][\S][Ring1][/C@@H][C][Branch1_2][NH2+][F][Branch1_3][epsilon][F][F][1][=C][=N+][=O][C][=C][Ri][=C][C][=C][1_1][epsilon][=O][Branch1_3][epsilon][=O][N][N][=C][C][=C][C]2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][=C][Branch2_2][C][#C][/C@@H][C][=C][Ring1][Ring2][Ring1][=N][Rin[C][\C@H][C][\C@@H][C][=C][O][BrancC][C][=C][Branch1_3][epsilon][F][C][=C][Ring1][B][\C@H][epsiloilon][=O][Branch1_31_2][epsilon][N][Branch1_1][epsilon][N][=O][C][=S@@][=S+][][Branch2_2][C][=C][Branch2_2][C][=S@@][C][C][=C][C][[C][S][N][=C][Branch1_3][epsilon][C][N][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][ranch2_2][=C][#C][=O][C][C][\C@H][C][=C][C][=C][C@][Branc[epsilsilon][C][N][=S][=NRing1][=C][=N+][=O][C][=C][Ring1][=][epsilon][=O][=O][C][=C][Ring1anch1_1][C][=C][Ring1][=C][C][=C][C][ranch2_2][C][=S@psilon][=O][][C][=C][Branch2_2][1][=C][epsilon][=O][C][C][\C@H][C][\C@@H][C][NH+][O][Branch1C][Branch1_2][epsilon][C][Branch1_3][epsilon][=S@@][C][[C][S][N][=C][Branch1_3][epsilo_3][epsilon][C][N][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][/NH2+][C][=C][Expl\Ring1][B][Branch1_3][epsilon][C][C][=C][C][=C][1_1][epsilon][=O][Branch1_3][epsilon][=O]h1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][\F][epsilon][=O][C][C][\C[C][B1][=C],1000,SELFIES,False
+12,0.51,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_1][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][BraBranchilon][=O][C][=C][C][=C][Branch1_3][=n][C][C][=C][Ring1][Branch1_2],1000,SELFIES,False
+13,0.45,[C][Branch1_2][#C][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][=C][N][Ring1][#C][/O+][C][=C][C][Branch2_1][Branch1_3][eps][N][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N][Ring1][=C][=C][C][=C][Branch2_3]anch2_3][eC][C][Branch1_2][/NH-][C][Branch1_2]anch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F]=C][=C][C][=C]][Branch1_Ring1][=N][Ring1][=C][=C][C][=C][Branch2_3][eC][ng1][BrO][=C]=C][C][=C][Ring1][Branch1_1][C][Cl][epsilon][F][PH+][[C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][=C][N][Ring1][#C][C][CeC][/S@][Branch1_2][Branch2_2][C][Br][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F]ng1][=C][=C][C][=C][Branch2_3][epsilon][CC][=C][C][=C][RinRiran[Branch1_3][epsilon][F][F]ng1][=C][=S][C][=C][Branch2_3][epsilon][psilon][F][F][C][=C][Ring1][=N][Ring1][=C][=C][C][=C][Branch2_3][eC][C][Branch1_2][/NH-][C][CH-][Branch2_2][C][Branch1_2][epsilo3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][=C][N][Ring1][#C][C][C][=C][C][=C][Branch1_3][eps][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][=N=C][Ring1][=N][Ring1][=C][=C][C][=C][BranchS][Branch1_1][epsilon][=epsilon][F][Branch1_3][epsilon][F][F][=N][N][Ring1][Branch2_1][C][C][==C][Ring1][Branch[C][=C][C][=N][C][=C][Ring1][Branch1_1][C][N-][Ring1][=N],1000,SELFIES,False
+14,0.54,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][\C][C][\C][=C][Branch1_3][epsilon][\F][C][=C][C][=C][C][=C][Ring1][Ring1][C][=C][Ring1][=N][epsilon]ing1][S@@][C][=C][Ring1][=N][epsilonn][F][Branch1_3][epsch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][=N][epsilon][=OO][Branch1_3][epsil][epsilon][=O][C][=C][C][=C][Branch1_3][\C][C][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][S@@][C][=C][Ring1][=N][epsilon][\N][ch1_2][epsilo[epsilon][=O][C]ranch1_3][epsilon][=O][Cch1_3][epsilon][S+][C][=C][C][=C][Branch1_3][=N][C][N][C][Branch1_3][epsilon][=O][C][=C][C][=N][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N][epsilon]_3][#C][C][=N][C][=C][Branch[=C][Ring1][N][N][=C][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][\C][C][N][C][Branch1_3][epsilon][/N][C][=C][C][=C][C][=C][Ring1][S@@][C][=C][Ring1][=N][epsilon][\N][ch1_2][epsilo[][Branch1_3][PH][=O][C][=C][C][=C][C][=C][Ring1][S@@][C][=C][Ring1][=N][epsilon][\N][ch1_2][epsilo[epsilon][=P@@][C][=C][C][=N][C][=C][Ring1][Branch1_ranch1_2][=N][C][Ring1][F][=C]N][=C][C][C][=C][Bra=C][Ring1][P@@][C][=C][Ring1][=N][epsilon][=OO][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][\C][C][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][S@@][C][=C][Ring1][=N][epsilon][\N][ch1_2][epsilo[epsilon][=O][C]ranch1_3][epsilon][=O][Cch1_3silon][F][Branch1_3][epsch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][=N][C][#N+][F][=C][Ranch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][S@@][C][=C][N][=C][Branch1_3][ep1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][\C][C][N][=C][Branch1_3][epsilon][\F][C][=C][C][=C][C][=C][Ring1][P@@][C][=C][Ring1][=N][epsilon][=OO][Branch1_3][epsi[=N][epsilon][\N][ch1_2][epsilo[epsilon][=O][C][=C][C][=N][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N][epsilon][=O][[C][=N][N][Branch1_1C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Br][ng1][N][N][=C][BraC][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][S@@][C][=C][Ring1][=N][epsilon][\N][ch1_2][epsilo[epsilon][=O][C][=C][C][=N][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N][epsilon][=O][[C][=N][N][Branch1_1][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsi=C][Ri][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][\C][C][N][C][Branch1_3][epsilon][=O][C][=3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N][epsilon][\N][ch1_2][epsilo[epsilon][=O][C][=C][C][=N][C][=C][Rich1_1][C][=C][N][C][Branch1_3][N][=N][N][=C][Ring1][NH+][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][O][C][=C][Ring1][=C],1000,SELFIES,False
+15,0.49,[C][C][=C][C][=C][C][=C][C][=C][Ring1][Ring2][=N][Ring1][Branch2_1][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][Branch2_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][Cl][/ng1][Ring2][C][=C][C][=C][Branch1_3][Branch2_3][Branch2_2]2][C][Branch1_2][epsilon][F][Branch1_3][[=N][N][Ring1][Ring2][C][=C][C][=C][Branch1_3][Branch2_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][ch1_3][Branch2_3][Branch2_2][=P@][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][epsilon][Cl][Csilon][=Oanch1_3][epsilon[epsilon][=O][Branch1_3][epsilon][=O][C][C][Branch1_3][epsilon][=O][N][C][=C][C][=NH2+][C][=N][Ring1][Branch1_1][C][=C][Ring1][_3][epsilon][F][F][=C][Ring2][epsilon][F][\C@@H][C][=C][Ring1][Branch2_2],1000,SELFIES,False
+16,0.51,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][Branch1_3][C][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][Cl][C][=C][Ring1][Branch1_2][Branch2_2Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ring1][epsilon][=O][Brsilon][F][F][C][=C][Ring1][=S][N][C][C][N][Branch2_3][epsilon][Ring2][\C@@H][Branch1_3][O][C][=C][C][=C][[=O]ch1_3][epsilon][=O][C][=C][C][=C][C][Branch1_2][#C][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][N][Brah2_3][epsilon][Ring2][C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ring1][Branch1_1][C]2_2][=C][C][=C][N][=C][Ring1][epsilon][=O][Branch1_3][ech1_2][C][=C][C][=C]3][C][=NH+][N][C][=C][C][=C][Branch1_3][C][C][=C][C][=C][C][=Cch1_3][epsilon][F][F][Expl\Ring1][=C][Ring1][Branch2_2][N][C][C][N][Branch2_3][epsilon][Ring2][C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][Branch2_2][=C][C][=C][N][=C][i][N][C][C][\C][BrancC][Ring1][e[N][=[=C][Branch2_3][epsilon][Ring1][S][Branch1_1=C][C][=C][N][=C][Ring1][epsilon][=O][Branch1_3][C][=N][N][C][=C][C][=C][Branchilon][=O][Branch1_[=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ring1][Branch1_1][C]2_2][=C][C][=C][N][=C][Ring1][epsilon][=O][Branch1_3][ech1_2][C][=C][C][=C][N][=C][RinC][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ri[F][C][=C][Ring1][Branch2_ch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][Cl][C][=C][Ring1][Branch1_2][Branch2_2Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ring1][epsilon][=O][Brsilon][F][F]C][Ring1][Branch1_2][N][C][Branch1_3][epsilon][=O][N][Ring1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][Cl][C][=C][Ring1][Branch1_2lon][Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ring1][epsilon][=O]C][Branch2_3][Ring1][Branch1_3][N][C][Branch1_2][C][C][Ring1][O][C][=C][Ring2][epsi_1][epsilon][=O][Branch1_3][epsilon][=O][N][N][=C][C][=C][C][Ring1][epsilon][=O][BranBranch1_3][C][=N][N][C][=C][C][=C][Branch1_3][C][C][=C][C][=C][C][=Cchnch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=C][=O][Branch1_3][=S@@][epsilon][Ring2][C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C[Branch1_3][C][C][=C][C][=C][C][=Cch1_3][epsilon][F][F][Expl\Ring1][=C][Ring1][Branch2_2][N][C][C][N][Branch2_3][epsilon][Ring2][C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][Branch2_2][=C][][C][=C][Branch1_3][Bra2_3][epsiranch1_2][epsilon][C][=C][C][=C][Ring1][Branch1_2][N][C][Branch11][Branch2_2],1000,SELFIES,False
+17,0.46,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C@H][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=2_3][epsilon][=C][\Br][C][Branch1_3C][=C][\Cl][Branch2_2][=S@][O]][Cch1_2][Branch2_2][C][ing1][Branch2_2][C][=C][Ring1][N][N][=C][Branch1_3][epsilon][=C][N][C][Branch1_3][epsilon][=O][C][O][C][Branch1_3][epsilon][=O][C][ng1][=2_3][epsilon][=C][S-][C][Branch1_3C][=C][C][Branch2_2][=S@][O]][C][N][Branch2_3][Ring1anch2_1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][/C@@][=N][N][Ring[=C][Ring1][=2_3][epsilon][=C][N][C][Branch1_3C][=C][C][Branch2_2][=S@][O]][C][N][Branch2_3][Ring1][F][C][Branch1_3][epsilon][=O][C][=C][C3][Branch2_2][S][Branch1_2][epsilon][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N]n][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][NH+][Ring1][=C][Ring1][=2_3][epsilon][=C][S-][C][Branch1_3C][=C][C][Branch2_2][=S@][O]][C][N][Bra[N][C][Branch1_3][=N+][=O][C][O][C][Branch1_3][epsilon][=O][C][=C][N][Branch1_3][Brach1_1][S@][=C][Ring1][=N],1000,SELFIES,False
+18,0.53,[C][=C][Branch1_3][=S][Branch1_3][/C@@][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][N][Ring1][F][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][=C][Branch1_3][Branch2_2][S][=C][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][N][Ring1][F][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][P@@H][epsilon][F][Branch2_3][C][=C][Ring1][Branch[Ring1][Branchranch1_3][epsilon][F][F][C][=C][R][epsilon][=O][C][=C][C][=C][/N-][Branch2_2][Ring1][C@@H][C][=C][C][=C][Branch2_3][epsilon]1_2][Branch2_2][epsilon][F][Branch1_3][epsilon][F][F][C[=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][\O-][Branch1_2][Branch2_2][\N+][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][/O-][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][=O][C][=C][C][=C][Branch1_3][=N][N][C][Branch1_3][epsilon][=O][N][C][=C][\N][PH+][=ranch1_1][epsilon][=O+][=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][C][Branch1_ing1][Branch2_2][N][Ring1][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][3][Branch2_2][S][Branch1_2][epsilon][N][Branilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][F][C][=C][=S][Branch[Branch1_[=S][=N][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][Branch1_3][epsilon][=O][C][\F][C][=C][C][Branch2_2][Ring[C][=C][C][Branch2_2][Ring1][Branch1_3][C][=C][C][=C][Branch2_3][epsilon][=N][N][Branch1_3][Branch2_3N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][F][C][2][epsilon][F][Brancn][Cl][C][=C][Ring1][Branch1_2][=N][C][Ring1][F][=C][Rin][N][Ring1][F][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][P@@H][epsanch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][Branch2_3][C][=C][Ring1][Branch[Ring1][Branchranch1_3][epsilon][F][F][C][=C][R][epsilon][=O][C][=C][C][=C][/N-][Branch2_2][Ring1][Branch1_3][C][=C][C][=C][Branch2_3][epsilon]1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilo][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][=N][C][Ring1]=N][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C[N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][N][Ring1][F][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Rch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch[Ring1][Branch2_2]ranch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][F][C][2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][epsilon][F][Branch1_3][epsilon][F][F][C][=C]n]1_2][Branch2_2][epsilon][F][Branch1_3][epsilon][F][F][C[=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][\O-][Branch1_2][Branch2_2][\N+][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][Ring2][epsilon][Branch2_1][/O-][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][=O][C][=C][C][=C][Branch1_3][=N][N][C][Branch1_3][epsilon][=O][N][C][=C][\N][=silon][=ranch1_1][epsilon][=O+][=O][C][=C][Ring1][Branch2_2][N][Ring1][=C][C][Branch1_ing1][Branch2_2][N][Ring1][=C][C][Branch1__2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][PH][C][=C][Ring1][Branch2_2][N][Ring1][F][C][Branch1_2][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][[Ring1][=N],1000,SELFIES,False
+19,0.40,[C][C][=C][C][Branch1_2][Branch2_2][S][Branch1_2][/S-][N][Branch1_1][epsilon][=O][=O][=C][C][=C][Ring1][Branch2_2][N][/C@@][Branch1_3][epsilon][=N][\C@H][/C][=C][Ring1][Branch1_1][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Rin1][epsilon][=O][B2][N][C][Branch1_3][epsilon][O][N][/C][Expl\Ring1][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Rin1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][Branch1_3][epsilon][S][N][=C][N][=C][Ring1][Branch1_2][Ring1[Branch1_3][N][C][=C][Branch1_3][epsilon][Cl][C][\O][epsilon][F][O][C][C][C][N][Branch1_3[N][=C][Ring1][Branch1_1][C][Branch1_2][epsil[F][O][C][C][C]1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Rin1][eps][=C][Ring1][=C],1000,SELFIES,False
+20,0.47,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][epsilon][][=C][Ring1][=N][=C][epsilon][=O][N][PH+][=C][C][=C][Ring1][R[epsilon][=O][N][C][=C][C][=C][Branch1_on][=O][C][=C][Branch1_3][=N][C][Branch1_ilon][F][Branch1_3][epsilonilon][=O[=C]anch1_3][epsil][N][=C][C][=C][C@H][=S@][C][=C][Ring1][Branch1_1][Br][=N][=C][Ring1][=N],1000,SELFIES,False
+21,0.60,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][Branch2_2][Branch2_2][C][=N][=C][Branch1_3][O][C][=C][C][=C][Branch1_3][P][\C][C][=C][Ring1][Branch1_2][C][=C][Ring1][F][/N][Branch1_3][epsilon][=Branch2_3][=N-][Ring1][S][Branch1_1C][=N][N][Ri][epsilon][O-][C][\NH+][C][=C][C][=C][Ring1][Bing1][Branch2_2][N][C][Branch1_3][N][\C@@H][Branch2_2][C[Branch2_3][epsilon][\I][BraBranch2_2][Branch2_2][N][Branch2_2][Branch2_2][C][=N][N][Branch1_3][O][C][=C][C][=C][Branch1_3][P][\C][C][=C][Ring1][Branch1_2][C][=C][Ring1][F][C][Branch1_3][epsilon][=Branch2_3][=N-][Ring1][S][Branch1_1][epsilon=N-][Ring1][S][Branch1_1][epsilon][=O][Branch1_3][epsF][C][=C][Ring1][Branch2_2][Expl/Ring1][C][epsilon][N][BraO][Branch1_3][#C][C][=C][C][/Cl][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][Branch1_3][N][Branch2_3][O][C][=C][C][=C][Br][C][=C][Ring2][e[Branch1_3][=N-][Ring1][S][Branch1_1][epsilon][=O][Branch1_3][epsF][C][=C][Ring1][Branch2_2][Expl/Ring1][C][Br[epsilon][O-][C][=C][C][=C][C][=C][Ring1][Branch1_1][N][Brann][=O][Branch1_3][#C][C][=C][C][/Cl][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][Branch1_3][N][Branch2_3][O][C][=C][C][=Cch1_1][C][=C][Ring1][=N],1000,SELFIES,False
+22,0.56,[O][=S][Branch1_1][epsilon][=O][Branch1_3][S][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][\Cl][F][Branch1_3][epsilon][F][F][N][=C][Ring1][Branch2_2][epsilon][C][=C][C][=C][Branch1_3][epsilon][/N][C][=C][Ring1][Branch1_2][[Branch2_2][N][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][Branchh1_1][C][h1_[F][Branch][Branch1_2][epsilon][Branch1_3][Branch2_3][epsilon][RRing1][F][C][=C][C][=C][Branch1_3][\N][C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1]=C][C][=C][C][Branch1_2][epsilon]h1_3][epBranch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][S@@][Ring1][Branch2_2][N][C][C][N][Branch2_3][epsilon][Ring2][\C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C]g1][Branch1_2][C][=C][C][=C][N][=C][Ring1][Bra=C][RingC][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][[Branch2_2][N][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][epsilon][F][Branchh1_1][C][h1_[F][Branch][Branch1_2][epsilon][Branch1_3][Branch2_3][epsilon][RRing1][F][C][=C][C][=C][Branch1_3][\N][C][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1]=C][C][=C][C][Branch1_2][epsilon]h1_3][epBranch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][N][C][=C][Ring1][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1]=C][C][=C][C][Branch1_2][epsilon]h1_3][epBranch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][N][Branch2_3][epsilon][Ring2][\C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C]g1][Branch1_2][C][=C][C][=C][N][=C][Ring1][Bra=C][Ring1][Ring2][C][Branch1_2][epsilon][F][Branch1_3][e[=O][Branch1_3][epsilon][=O][C][ch1_3][=N][C][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N],1000,SELFIES,False
+23,0.42,[N][S][Branch2_3][epsilon][\S@][N][C][=C][C][Branch2_2][epsilon][=C][N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=C][C][=C][Branch1_3][epsilon][/C][N][N][=C][Ring2][epsilon][F][Ring1][Br[=S][Branch1_2][epsilon][C][Branch1_3][epsilon][=O][C][=C=C][Branch2_3][epsilon][Ring1][N][C][Bran][Brancsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1[C][=C][Branch2_3][epsilon][Branch1_3][O][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=C][C][=C][Branch1_3][epsilon][Cl][N][N][=C][Ring2][epsilon][F][Ring1][Br[=S][Branch1_2][epsn][=O][C][=C][C][=C][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][[epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1[C][=C][Branch2_3][epsil][=O][N][Ring1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1ng1][F][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2],1000,SELFIES,False
+24,0.49,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsion][=O][C][=C][C][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][#N][epsilon][=O][Branch1_3][eanch1_3][=N][C][Branch1_3][epsilon][=O][N][C][C][=C][C][=C][C][=[C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=N[Branch1_1][epsilon][=O][Braanch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=N[Branch1_1][epsilon][=O][Branch1_3][eanch1_3][=N][C][Branch1_3][epsilon][=O][N][C][Cranch1_1][eC],1000,SELFIES,False
+25,0.44,[C][C][=C][C][=C][Branch2_3][Ring1][Branch2_2][C][=N][N][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][F][C][=C][Ring1][Branch1_2][C][=C][Ring1][F][C][Branch1_3][C][Branch2_3][epsilon][Ring1][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][N][=C][Ring1][Branch1_1][C][=C][Ring1][=C],1000,SELFIES,False
+26,0.56,[N][S][Branch1_1][epsC][C][Branch2_2][epsilon][=N][C][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][/N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/C][=C][Ring1][N][C][=C][Ring1][=C][=C][Ring2][=N][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Rinepsilon][=ranch1_3][epsilon][F][F][C][=C][Ring1][=O][Ring2][C][N][N-][Bralon][F][[ing1][=C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][Ring1][S][C][=CO][Branch][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][C][Branch1_1][epsilon][epsilon][=O][C][=C][Ring1][BranchsilN][C][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/N][=C][Ring1][N][C][=C][Ring1][=C1_3][epsilon][=O][N][C]ranch1_1][C][=C][epsilon][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branc][epsilon][=O][C][Branch1_3][epsilon][C][N[C][C][=C][C][=C][Branch2_3][epsilon][Ring1][C][=C][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][C]ranch1_1][C][=C][/Br][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/N][=C[Branch1_2][Ring1][S][C][=C][Ring2][epsi[epsilon][=O][Branchilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/N][=C][Ring1][N][C][=C][Ring1][=C][=C][Ring2][epsilo][Bra1_1][epsilon][=O][=O][C][=][=O][F][C][=C][Ri2_1][Con][F][F][C][=C][Ring1][Branch2_2],1000,SELFIES,False
+27,0.41,[O][=S][Branch1_1][epsilon][=O][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][\S-][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][N][epsilon][Cl][C][=C][Ring1][Branch1_2][C][=C][C][=C][N][=C][Ring2][=N][Ring1][Ring2][C][=C][N][=C][Rin[Branch2_2][=C][Ring1][=N][Ring2][C][=C][Branch1_3][eps][Ring2][epsilon][F][Ring1][Brach2_3][epsilon][Ring1][S][BC][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=C][C][=C][Branch1_3][epsil3][epsilon][F][F][C][=C][Ring1][\C@@H][=C][Ring1][=N][Ring2[C][O][C][C][Ring1][Branch1_1][C][=C][Ring1][=C][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][C]C][=N][C][=C][Ring1][Branch1_1][C][=N][N][Ring1][Ring2][=C][C][Branch2_2][epsilon][=C][N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][C][=N+][#C][=P][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][=C][Ring1][=N][=Cranch1_3][=C][Ring2][epsilon][O],1000,SELFIES,False
+28,0.47,[C][C][Branch1_3][#C][S][Branch1_1][epsilon][=O][Branch1_3][CH2-][=O][C][=C][C][=C][Branch1_3][epsilon][C][C][=C][Ring1][Branch1_2][C][=C][C][=C][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][Branch2_2][=C][C][=C][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][N][=C][C][=C][N][Ring1][Branch1_1][N][=C][Ring1][Branch2_1][C][=C][Ring2][eph]silon][Ring1][S][Branch1_1]Ring1][S][Branch1_1][epsilon][=O][Branch1_3][#N+][=O][N][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][N][=C][Ri][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][=S][Branch2_3][epsilon][Ring2][C][Branch1_3][O][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][C][epsilon][Cl][N][N][=C][Ring2][epsilon][F][\I][C][/C@][C][=C][Branch1_3][epsilonanch1_2][epsilon][F][Branch1_3][C@@H][F][F][C][=C][Ring1]][Branch1_2][#C][S[epsilon][=O][Branch1_3][#N+][=O][N][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][N][=C][Ri][epsilon][F][F][C][=C][Ring1][Branch2_2][N][C][C][ilon][=O][Branch1_3][CH2-][=O][C][=C][C][=C][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][C][=C][C][=C][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][N][=C][C][=C][N][Ring1][Branch1_1][N][=C][Ring1][Branch2_1][C][=C][Ring2][eph]silon][Ring1][S][Branch1_1][epsilon][=O][Branch1_3][#N+][=O][N][N][C][Branch1_3][=S+][=O][C][=C][C][=C][N][=C][ranch1_2][C][=n][=O]ch1_2][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][N][=C][C][=C][N][Ring1][Branch1_1][N][=C][][Branch1_3][epsilon][N][C][=C][Ring1][Branch1_2][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][N][=C][C][=C][N][][epsilon][F][F][=C][C][=C][Rion][=O][C][=C][C][=C][Branch1_3][=N][C][Branch1_3][epsilon][=O][C][S][C][=C][C][=C][anch2_3][C][=C][C][=C][Branch1_3][Bran=C][Ring1][Branch1_1][C][=P@][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][N][=C][\N+][=C][N][][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][N][=C][Cl][=C]2_3][epsilon][Ring1][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][N][=C][C][=C][C][=N+][Branch1_3][epsilon][O-][C][=C][Ring1][Branch1_2][C][=n][=O][C][Branch1_2][#C][S][Branch1_1][epsilon[N][N][C][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][=C][Ring1][=N],1000,SELFIES,False
+29,0.50,[C][=P@@][Branch2_2][epsilon][=N][C][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][\N][Branch1_1][O-][=O][=O][C][=C][Ring1][Branch2_2][=C][/C@@H][=C][Ring1][N][C][=C][Ring1][=C][=C][Ring2][S][Branch1_1][F][=O][BrancN][N#C][C][=C][C][\F][Branch1_3][Branch2_2][C][=N][Ring1][S+][epsilon][=O][=O][C][=C]Branch1_3][=N][N][N][C][Bran[=C][\C@H][Branch_2][C][=N][Ring1][S+][epsilon][=O][=O][C][=C]Branch1_3][=N][N][N][C][Bran[Ring2][S][Branch1_1][epsilon][=ranc1][P][Branch1_2][epsilon][C][Branch1_3][epsilon][=O][O][C][=S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][\S-][Branchg2][S][Branch1_1][epsilon][/S-][=C1][N][Branch1_3][3][epsilon][Ring1][S][Branch1_1][epsilS][Branch1_1][epsilon][=O][Branch1_3][epsepsilon][=O][=O][C][=C]Branch1_3][=N][N][N][C][Bran[Ring2][S][Branch1_1][epsilon][=ranc1][P][Branch1_2][epsilon][C][Branch1_3][epsilon][=O][O][C][=][/NH2+][=C][Rin][F][C][=C][Ring1][Branch1_2][C][=C][Ring1][F][C][Branch1_3][epsilonC][Branch2_3][epsilon][Ring1][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][C][=S@@][\S@][=O][N][C][/C@@H][C][=C][C][=N][Ring1][Bran[Branch1_1][C][=C][Ring1][=C],1000,SELFIES,False
+30,0.43,[N][S][Branch1_1][epsilon][=O][Branch1_3][Ring1][=O][C][P@@][C][=C][Branch2_3][epsilon][Ring[/C@@H][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=h1_1][epsilon][=O][\N-][epsilo=C][=C][C][Branch2_2][eC][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=h1_1][3][C][=C][C][=C][C][Branch1[F][Branch1_3][epsilon][F][F][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][Cnch1_3][epsilon][C][N][=C][Ring1][Branch1_1][S][NH2+][Ring1C][=N][N][Ring1][=C][Ring1][=h1_1][epsilon][=O][\N-][epsilo=C][C][=C][C][Branch2_2][epsilon][Branch1_3][C][=C][C][=C][C][Branch1_2][#N][C][B[C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=h1_1][epsilon][=O][\N-][epsilo=C][C][=C][C][Branch2_2][epsilon][Branch1_3][C][=C][C][=C][C][Br=C][Ring1][Branch1_2][C][=C][Ring2][epsilon][Branch2_3],1000,SELFIES,False
+31,0.48,[C][C][=C][C][=C][C][=C][C][=C][Ring1][Ring2][N][Ring1][Branch2_1][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][epsilon][#C][C][=C][Ring1][Branch1_2][epsilon][C][C][=C][Ring1][BrC][C][=C][C][=C3]lon][C][C][=C][Ring1][BraC][Branch1_3][=N][C][Branch1_3][epsilon][=O][N][C][C][=C][C][=C][C][\O-][Ring1][Branch1_1][C][=C][Ring1][=N],1000,SELFIES,False
+32,0.40,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][/C@H][C][=C][C][Branch1_2][C][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N][Ring1][=C][Ring2][epsi[=C][Ring1][=N][epsilon][F][Branch1_3][epsi][=O][C][=C][C@H][=C][Branch1_3][epsilon]psilon][Branch1_3][C][=C][Ring2][epsilon][=_3][epsilon][=O][C][=C][C]on][C][C][=C][Ring1][Branch1_2][C][=C][Ring1][C][C][C][Ring2][epsilon][Branch1_3][C][=C][Ring1][Branch2_2][C][Branch[Branch1_3][epsilon[epsilon][C][C][=C][Ring1][Branch1_2][C][=C][Ring1][C][C@@H][epsilon][Ring2][epsilon][Branch1_3][C][=C][Ring2][epsi[=C][Ring1][=N][epsilon][O-][Branch1_3][epsilon][F][/Br][=N]Branch1_3][Branch2_2][C][Branch1][C][=C][C][=N][Con][O][C][=C[/F][Ring1][Branch[Ring1][Branch2_2][C][=C][Ring1][=C],1000,SELFIES,False
+33,0.45,[N][S][Branch1_1][epsi[epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch2_3][epsilon][Ring1][C][=C][Branch1_3][epsilon][\C][C][Branch1_3][epsilon][=O][C][=C][C][=C][C][=C][Ring1][BF][C][=C][Ring1][O][C][=C][Ring1][=C][epsilon][][C][=C][C][=C][C][=N][Ring1][P@@][#C][=C][R[=C]][C][=C][Branch1_3][Branch2_2][C][=C][][C][=C][C][=C][Branch1_3][Branch2_2][C][=C][C][=C][C][=N][Ring1][P@@][#C][=C][Ring1][F][C][=C][Ring1][C][epsilon][Cl][=O][C][N][=C][C][=C][C][=C][C][C][=C][C][=C][Branch2_3][epsilon][Ring1][S][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2]ranch1_1][N][Ring1][Branch2_1][S][Branch1_1][epsC][=C][R[C][epsilon][=O][\F][=C][C][=C][C][=C][R[BraN][=C][C][=C][C][=N+][Branch1_3][epsilon][O-][C][=C][Ring1][Branch1_2][C][=C][Ring1][=C],1000,SELFIES,False
+34,0.42,[C][C][=C][Ring2][Branch1_2][epsilon][C][=N+][Branch1_3][S][N][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][epsilon][C][=C][Ring1][=O][Branch1_2][F][C][=C][Ring1][C][epsilon][F_3][Branch2_2][S][Branch1_2][epsilon][N][BBranch2_1][P][Branch1_2][epnch1_2][epsilon][C][Branch1_3][epsilon][=O][=O][C][=C]pepsilon][=O][=O][C][=C][/N-][Branch2_2][C][Branch1_2][epsilon][C][=C][Ring1][=C][Branch1_2][F][C][=C][Ring1][C][epsilon][F][Ring2][Branch1_2][epsilon][C][=N+][Branch1_3][S][C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1__2][epnch1_2][epsilon][C][Branch1_3][epsilon][=O][=O][C][=C]pepsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][epsilon][C][=C][Ring1][=C][Branch1_2][F][C][=C][Ring1][C][epsilon][F][RBranch2_1][P][Branch1_2][epsilon][C][Branch1_3][epsilon][=O][=O][C][=C]psilon][F][F][=N][N][Ring1][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][C][Branch1_2][epsilo[=C],1000,SELFIES,False
+35,0.54,[N][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][C][=C][C][=C][Branch1_3][P][C][/C@@H][=C][Branch1_3][epsilon][\F][C][=C][C][=C][C][=C][Ring1][Ring1][C][=C][Ring1][=N][epsilon][F][g1][Br[Ring1][Branch1_1][C][=C][Ring1][=N]C][=Con][=O]h1_3][=N][N][C][Branch1_3][epsilon][=O][N][C][=C][/C@@][\I][C][=C][Ring1][BranF][C][=g1][=C],1000,SELFIES,False
+36,0.43,[C][C][=C][C][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][/Cl][F][Branch1_3][epilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][#N][epsilon][S][C][C][N][C][=N][C]][=S@][=O][C][=C][/O][=C][C][/Cl][F][Branch1_3][epilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][3][epsilon][S][C][C][N][C][=N][C]][epsilon][=O][NH3+][=C][C][=C][ilon][=O][Branch1_3][epsilon][=O][on][F][F][C][=C][Ring1][Branch2][Branch1_3][epsilon][C][C][C][Ring1][Branch1_2][C][=C][Ring1][O]ranch1_2][epsilo][C][=C[=O][O][C][=C][Ring1][=O,1000,SELFIES,False
+37,0.40,[C][C][=C][\C@@H][=C][C][=C][Branch1_3][#C][C][=C][C][=C][Branch1_3][Branch2_2][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=C][Branch1_3][epsilonC][C][=C][C][Branch1_2][C][C][=C][C][=C][C][=C][Ring1][Branch1_1][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Ring1][=N]h2_2][C][=N]][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=3][epsilon][F][F][C][=C][Ring1][Branch2_2][C][=C][Branch1_3][N][O][C][Branch1_3][epsilon][=O][C][Brach1_3][epsilon][F][F][C@@H][Branch1_1][epsilon][=on][F][F][g1][=3][epsilon][F][F][C][=C][Ring1][Ring2][C][=C][Branch1_3][epsilon][][epsilon][=O][C][\NH+][C][=C][Branch1_3][=N][N][C][Branch1_3][epsilon][=O][C][C][=C][C][=C][C][=C][Ring1]g1][F][C][=C][C][=C][Branch1_3][epsilon][Cl][C][=C][Ring1][Branch1_2][Ring1][S][C][=C][Ring2][epsilon][F],1000,SELFIES,False
+38,0.57,[N][Expl\Ring1][=C][C][Branch2_2][\Ring1][=C][/F][Branch2_2][epsilo[N][Expl\Ring1][=C][C][Branch2_2][\Ring1][=C][/F][Branch2_2][epsilon][=N][C][=N][N][\C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][/N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/C@@H][=C][Ring1][N][C][=C][Ring1][=C][F][Ring2][epsilon][#C][epsilon][Ring1][N][C][/NH2+][C][Ring1][Fnch1_2][N][S][Branch1_1][epson][=O][=O][C][=C]psilon]2][C][=C][Ri[epson][=O][=O][C][=C]psilon][=O][=O][C][=C][Ring1][Branch2_2][=C][ch][epsin][N][=C][Branch2_2][P@][Ring1][Branch1_2][N][S]ing1][N][C][Branch1_3][epsilon][=O][C][=C][C][Branch1_2]1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][C][=C][Ring1][=C][=C][R2][N][epsilon][=N][N][C][Branch1_2][#C][C][=C][C][=C][P@][B][Branch2_2][S][Branch1_2][epsilon][/N][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/C@@H][=C][Ring1][N][C][=C][Ring1][=C][F][Ring2][epsilon][#C][epsilon][Ring1][N][C][/NH2+][C][Ring1][Fnch1_2][N][S][Branch1_1][epson][=O][=O][C][=C]psilon][=O][=O][C][=C][Ring1][Branch2_2][=C][ch][epsin][N][=C][Branch2_2][=C][Ring1][Branch1_2][N][S]ing1][N][C][Branch1_3][epsilon][=O][C][=C][C][Branch1_2]1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][C][=C][Ring1][=C][=C][Rin[=C][=C][Ring2][epsilon][#C][epsilon][Ring1][N][C][Bepsilon][F][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=ranch1_2][epsilon][Br][=C][C][=C][Ring1][Branch1_2][N][epsilon][=N][N][C][Branch1_2][#C][C][=C][C][=C][Branch1_3][Branch2_silon][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][C][=C][Ring1][=C][P@@][Ring2][epsilon][Br2_3][epsilon][Ring1][N][C][Branch1_3][epsilon1][=C][=C][Ring2][epsilon][#C][epsilon][Ring1][N][C][Branch1_3][epsilon][=O][O][C][=C][C][=C][Branch1_3][epsilon][ipsilon][F][S][Branch1_1][epsilon][=O][Bran][Branch1_3][epsilon][=O][N][C][=N][C][=C][Branch1_3][epsilon][Cl][N][=C][N][=C][Ring1][Branch1_2][Ring1]2][S][Branch1_2][epsilon][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][/C@@H][=C][Ring1][N][C][=C][Ring1][=C][F][Ring2][epsilon][#C][epsilon][Ring1][N][C][/NH2+][C][Ring1][Fnch1_2][N][S][Branch1_1][epson][=O][=O][C][=C]psilon][=O][=O][C][=C][Ring1][Branch2_2][=C][ch][epsin][N][=C][Branch2_2][=C][Ring1][Branch1_2][N][S]ing1][N][C][BraC][Ring1][=C][=C][Ring2][[C][Ring1][Fnch1_2][N][S][Branch1_1][epson][=O][=O][C][=C]psilon][=O][=O][C][=C][Ring1][Branch2_2][=C][ch][epsin][N][=C][\Cl][=C][Ring1][Branch1_2][N][S]ing1][N][C][Branch1_3][epsilon][=O][C][=C][C][Branch1_2]1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][C][=C][Ring1][=C][=C][Ring1][Branch2_2][=C][N][=C][=S+][N][C][=C][Ring1][=C][P@@][Ring2][epsilon][Br2_3][epsilon][Ring1][N][C][Branch1_3][epsilon1][=C][=C][Ring2][epsilon][#C][epsilon][Ring1][N][C][Branch1_3][epsilon][=O][O][C][=C][C][=C][Branch1_3][epsilon][ipsilon][F][S][Branch1_h1_2][#C][C][=C][C][=C][Branch1_3][Branch2_2][S][Branch1_2][epsilon][C][][C][=N][N][Ring1][=C][Ring1][=ranch1_3][epsilon][O-][C][=C][Ring1][Branch1_2][C][=C][Ring1][=][C][=C][Ring1][\S-][C][=C][C][=C][F][C][=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=ranch1_3][epsilon][O-][C][=C][Ring1][Branch1_2][C][=C][Ripsilon][F][S][Branch1_1][epsilon][=O][Branch1_3][epsilon][=O][N][C][=N][C][=C][Branch1_3][epsiln][F][F][C][=C][Ring1][Branch2_][Ring1][N][C][=C][Ring1][=C][F][Ring2][epsilon][#C][epsilon][Ring1][N][C][/NH2+][C][Ring1][Fnch1_2][N][S][Branch1_1][epson][=O][=O][C][=C]psilon][=O][=O][C][=C][Ring1][Branch2_2][=C][ch][epsin][N][=C][Branch2_2][=C][Ring1][Branch1_2][N][S]ing1][N][C][Branch1_3][epsilon][=O][C][=C][C][Branch1_2][epsilon][/C@][=C][C][=C][Ring1][Branch1_2][N][C][Ring1][F1_3][e2][epsilon][C][Branch1_1][epsilon][=O][=O][C][=C][Ring1][Branch2_2][=C][N][=C][Ring1][N][C][=C][Ring1][=C][=C][Ring2][epsilon][#C][epsilon][Ring1][N][C][Branch1_3][epsilon][=O][O][C][=C][C][=C][Branch1_3][epsilon][Br][C][=C][Ring1][Branch][epsin][N][=C][Branch2_2][=C][Ring1][Branch1_2][N][S][Bra[=C][C][=C][Branch2_3][epsilon][epsilon][Br][\O][=C][Ring1][Branch][epsin][N][=C][Branch2=C][Ring1][Branch2_2][C][=N][N][Ring1][=C][Ring1][=ranch1_3][epsilon][O-][/N][=C][Ring1][N+][C][=C][Ripsilon][Branch1_1][S][Branch1_1][epsilon][=O][[=C],1000,SELFIES,False
+39,0.45,[C][Branch2_1][=C][C][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch][=C][C][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch1_1][C][Ring1][=C][=O][N][Branch1_3][=O][C][=C][C][=C][Branch1_3][Ring1][O][=N][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@][Ring1][N][C][B][=C][Branch2_3][Branc][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@][Ring1][N][C][B][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Brn][F][#N+][[C][C][=C][C][[C][=C][C][=C][Bnch1_3][epsilon][F][N][C][=C][Ring2][epsilon][\I][ep][Branch1_2][epsilon][F][Branch1_3][/Br][Branch1_3][Ring1][O][C][C][=C][Ring1][Branch1_3][N][CH2-][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsil2][epsilon][Brara[F][F][=C][C][=C][Branch1_3][Branch2_3][N][S][B][C][=C][Ring1][Branc[][epsilon][Branch1_1][Ring1][S][C][=h1_3][Ring1][O][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][F][C][=C][RiF][Branch1_3][epsilon][F][F][C][=C][Ring2][epsilon][Brara[Branch1_3][\Br][F][F][[C][C][=C][C][=C][Bra][O][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@][Ring1][N][C][B][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Brn][F][#N+][anch1_1][C][Ranch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@][Ring1][N][C][B][=C][Branch2_3][Branch1_3][Branch2_2][C][[Branch2_3][N][S][B][C][=C][Ring1][Branc[=O][C][=C][Ring1anch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring2][epsilon][BrC][=C][Ring1][Brah1_2][epsilon][F][Branch1_3][epsilon][F][F][\NH2+][=C][Ring1][Branch2_2][Cl][C][=C][RiC][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Branch1_3][Branch2_3][N][S][/S@][C][=C][Ring1][Branc[=O][C][=C][Ring1anch1_2][epsilon][F][Branch1_3][epsilon][F][C@@H][C][=C][Rin[=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch][=C][C][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch1_1][C][Ring1][=C][=O][N][/S-][=O][C][=C][C][=C][Branch1_3][Ring1][O][/Br][C][=][\I][ep][Branch1_2][epsilon][F][B[Br][epsilon][F][F][g2][epsilon][nch1_3][Rh1_1][C][Ranch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@][Ring1][N][C][B][=C][Branch2_3][Branch1_3][Branch2_2][C][[Branch2_3][N][S][B][C][=C][Ring1][Branc[=O][C][=C][Ring1anch1_2][epsilon][C][=C][Brn][F][#N+][[C][C][=C][C][[C][=C][C][=C][Bnch1_3][epsilon][F][N][C][=C][Ring2][epsilon][\I][ep][Branch1_2][epsilon][\C@H][Branch1_3][/Br][Branch1_3][Ring1][O][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][=C][Ring2][eC][C][=C][Ring1][Bran=C][/S][=C][Ring1][Branch][epsilon][F][F][C][C@@1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][=C][C][=C][Branch1_3][Branch2_3][N][S][B][C][=C][Ring1][Brch2_1][=C][C][=C][Branch2_3][1][=C][=O][N][Branch1_3][=O][C][#C][C][=C][Branch1_3][Ring1][O][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@1][N][C][Branch1_2][epsilon][F][Branch1_3][=SH+][F][F][=C][C][=C][Branch1_3][Branch2_3][N][S][Bn][F][Branch1_3][epsilon][F][F][NH+][C@@][Ring1][N][C][B][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Brn][F][#N+][[C][C][=C][C][[C][=C][C][=C][Bnch1_3][epsilon][F][N][C][=C][Ring2][epsilon][\I][ep][Branch1_2][epsilon][F][Branch1_3][/Br][Branch1_3][Ring1][O][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsil2][epsilon][Brara[Branch1_3][\Br][1][Branc[=h1_3][N][=C][Ring1][O][C][Branch1_2][epsilon][F][Branch1_3][N+][F][F][C][=C][Ring2][ech1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_ranch2_1][=C][C][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch][=C][C][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch2_2][C][=C][Branch1_3][Branch1_1][C][Ring1][=C][=O][N][Branch1_3][=O][C][=C][C][=C][Branch1_3][Ring1][O][C][C][=C][Ring1][Branch1_3][N][=C][Ring1][N][C][Branch1_2][epsilon][F][Branch1_3][epsilon][F][F][C][C@@][Ring1][N][C][B][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Brn][F][P@][[C][C][=C][C][=C][Branch2_3][Branch1_][epsilon][F][F][C][=C][Ring2][epsilon][Brara[Branch1_3][\Br][F][F][[C][C][=C][C][=C][Branch2_3][Branch1_3][Branch2_2][C][=C][Brn][F][#N+][[C][C][=C][C][=C][Branch2_3][Branch1_3][/N][C][=C][Branch2_3][epsil][Branch2_2][C][=C][Ring1][C,1000,SELFIES,False

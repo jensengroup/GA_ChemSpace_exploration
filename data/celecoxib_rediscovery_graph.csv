@@ -1,0 +1,93 @@
+* target O=S(=O)(c3ccc(n1nc(cc1c2ccc(cc2)C)C(F)(F)F)cc3)N
+* population_size 100
+* mating_pool_size 200
+* generations 1000
+* mutation_rate 0.5
+* max_score 1.0
+* average_size/size_stdev 26 5
+* initial pool Celecoxib_guacamol.smi
+* number of tries 40
+* number of CPUs 40
+* seeds 292273,265159,488673,691749,189596,788857,205492,759771,662354,440728,434104,210744,417552,83662,664596,241028,988480,428771,683690,437684,407988,552643,758333,896914,577897,199397,238000,33648,529259,701025,386823,356831,582599,494661,147065,482413,230312,465713,43465,222209,511071,898796,166363,537150,36016,216948,251577,278942,672742,577198,666657,688213,536781,800532,461288,448681,716284,356077,176497,368873,184299,814747,36010,802931,595442,448240,878806,237617,708065,421508,79234,653682,470375,893865,6967,83152,861700,607069,894088,306197
+*
+run,score,smiles,generations,representation,prune
+0,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,80,Graph,True
+1,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,857,Graph,True
+2,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,294,Graph,True
+3,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,106,Graph,True
+4,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,48,Graph,True
+5,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,80,Graph,True
+6,0.78,CC1=CC=C(C2=NN(C3=CC=C(S(N)(=O)=O)C=C3)C(C(F)(F)F)=C2)C=C1,1000,Graph,True
+7,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,777,Graph,True
+8,0.78,CC1=CC=C(C2=NN(C3=CC=C(S(N)(=O)=O)C=C3)C(C(F)(F)F)=C2)C=C1,1000,Graph,True
+9,0.65,CC1=CC=C(C2=C(C3=CC=C(S(N)(=O)=O)C=C3)C=NC(C(F)(F)F)=C2)C=C1,1000,Graph,True
+10,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,57,Graph,True
+11,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,48,Graph,True
+12,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,64,Graph,True
+13,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,69,Graph,True
+14,0.73,CC1=CC=C(N2C=C(C(F)(F)F)C=C2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,True
+15,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,47,Graph,True
+16,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,48,Graph,True
+17,0.73,CC1=CC=C(C2=CC(C(F)(F)F)=CN2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,True
+18,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,90,Graph,True
+19,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,60,Graph,True
+20,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,74,Graph,True
+21,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,104,Graph,True
+22,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,288,Graph,True
+23,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,500,Graph,True
+24,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,142,Graph,True
+25,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,60,Graph,True
+26,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,666,Graph,True
+27,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,56,Graph,True
+28,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,174,Graph,True
+29,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,486,Graph,True
+30,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,46,Graph,True
+31,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,64,Graph,True
+32,0.66,CC1=CC=C(C2=CC(C(F)(F)F)=C(C3=CC=C(S(N)(=O)=O)C=C3)N2O)C=C1,1000,Graph,True
+33,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,70,Graph,True
+34,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,341,Graph,True
+35,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,89,Graph,True
+36,0.78,CC1=CC=C(N2N=C(C3=CC=C(S(N)(=O)=O)C=C3)C=C2C(F)(F)F)C=C1,1000,Graph,True
+37,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,53,Graph,True
+38,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,32,Graph,True
+39,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,120,Graph,True
+0,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,775,Graph,False
+1,0.78,CC1=CC=C(N2N=C(F)C=C2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+2,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,356,Graph,False
+3,0.71,CC1=CC=C(N2N=C(C3=CC=C(S(N)(=O)=O)C=C3)C(C(F)(F)F)=C2C)C=C1,1000,Graph,False
+4,0.78,CC1=CC=C(C2=CC(F)=NN2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+5,0.78,CC1=CC=C(C2=CC(F)=NN2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+6,0.65,CC1=CC=C(C2=NC(C(F)(F)F)=CC(C3=CC=C(S(N)(=O)=O)C=C3)=N2)C=C1,1000,Graph,False
+7,0.55,CC1=CC=C(C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+8,0.78,CC1=CC=C(C2=CC(F)=NN2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+9,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,54,Graph,False
+10,0.78,CC1=CC=C(N2N=C(F)C=C2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+11,0.78,CC1=CC=C(N2N=C(C3=CC=C(S(N)(=O)=O)C=C3)C=C2C(F)(F)F)C=C1,1000,Graph,False
+12,0.66,CC1=CC=C(C2=CC(C3=CC=C(S(N)(=O)=O)C=C3)=C(C(F)(F)F)N2O)C=C1,1000,Graph,False
+13,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,616,Graph,False
+14,0.78,CC1=CC=C(C2=NN(C3=CC=C(S(N)(=O)=O)C=C3)C(C(F)(F)F)=C2)C=C1,1000,Graph,False
+15,0.78,CC1=CC=C(C2=NN(C3=CC=C(S(N)(=O)=O)C=C3)C(C(F)(F)F)=C2)C=C1,1000,Graph,False
+16,0.66,CC1=CC(C(F)(F)F)=NN2C1=CC=C2C1=CC=C(S(N)(=O)=O)C=C1,1000,Graph,False
+17,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,32,Graph,False
+18,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,95,Graph,False
+19,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,49,Graph,False
+20,0.73,CC1=CC=C(N2C(C3=CC=C(S(N)(=O)=O)C=C3)=CN=C2C(F)(F)F)C=C1,1000,Graph,False
+21,0.55,CC1=CC=C(C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+22,0.78,CC1=CC=C(N2N=C(C3=CC=C(S(N)(=O)=O)C=C3)C=C2C(F)(F)F)C=C1,1000,Graph,False
+23,0.69,CC1=CC=C(C2=NN(C3=CC=C(S(N)(=O)=O)C=C3)C(F)=C2)C=C1,1000,Graph,False
+24,0.73,CC1=CC=C(N2N=C(C(F)(F)F)C(C3=CC=C(S(N)(=O)=O)C=C3)=CC2=O)C=C1,1000,Graph,False
+25,0.65,CC1=C(C(F)(F)F)C=NN1C1=CC=C(C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+26,0.69,CC1=CC=C(N2N=C(C3=CC=C(S(N)(=O)=O)C=C3)C=C2F)C=C1,1000,Graph,False
+27,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,59,Graph,False
+28,0.73,CC1=CC=C(C2=CN=C(C(F)(F)F)N2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+29,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,51,Graph,False
+30,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,106,Graph,False
+31,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,89,Graph,False
+32,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,58,Graph,False
+33,0.78,CC1=CC=C(C2=CC(F)=NN2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+34,0.78,CC1=CC=C(N2N=C(F)C=C2C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+35,1.00,Cc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(S(N)(=O)=O)cc2)cc1,32,Graph,False
+36,0.55,CC1=CC=C(C2=CC=C(S(N)(=O)=O)C=C2)C=C1,1000,Graph,False
+37,1.00,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,39,Graph,False
+38,0.69,CC1=CC=C(C2=NN(C(F)(F)F)C(C3=CC=C(S(N)(=O)=O)C=C3)=C2)C=C1,1000,Graph,False
+39,0.69,CC1=CC=C(C2=NN(C3=CC=C(S(N)(=O)=O)C=C3)C(F)=C2)C=C1,1000,Graph,False

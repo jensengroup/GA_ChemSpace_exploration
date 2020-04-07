@@ -1,0 +1,93 @@
+* target O=C1NC(=O)SC1Cc4ccc(OCC3(Oc2c(c(c(O)c(c2CC3)C)C)C)C)cc4
+* population_size 100
+* mating_pool_size 200
+* generations 1000
+* mutation_rate 0.5
+* max_score 1.0
+* average_size/size_stdev 31 5
+* initial pool Troglitazone_guacamol.smi
+* number of tries 40
+* number of CPUs 40
+* seeds 426496,110347,585709,696681,212127,543263,873325,96163,71596,653183,743123,78397,185764,239975,957584,930969,255597,508347,998406,952908,533074,551013,709454,199314,898326,270814,898038,216042,524776,798363,836190,973026,845294,620071,466122,484790,484682,581018,191010,298214,200447,308671,440528,616825,64635,701091,791276,877863,669180,777004,62528,786829,182214,171157,214361,574788,887034,184081,303167,27324,301504,462089,247964,996179,735503,199965,687029,778179,925673,802873,232541,208929,618589,372491,110305,720617,236264,779741,169579,250277
+*
+run,score,smiles,generations,representation,prune
+0,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,13,Graph,True
+1,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,134,Graph,True
+2,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,165,Graph,True
+3,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,229,Graph,True
+4,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,79,Graph,True
+5,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,69,Graph,True
+6,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,59,Graph,True
+7,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,70,Graph,True
+8,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,64,Graph,True
+9,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,159,Graph,True
+10,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,354,Graph,True
+11,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,74,Graph,True
+12,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,29,Graph,True
+13,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,106,Graph,True
+14,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,161,Graph,True
+15,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,123,Graph,True
+16,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,32,Graph,True
+17,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,118,Graph,True
+18,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,344,Graph,True
+19,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,254,Graph,True
+20,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,98,Graph,True
+21,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,96,Graph,True
+22,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,172,Graph,True
+23,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,156,Graph,True
+24,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,125,Graph,True
+25,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,105,Graph,True
+26,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,78,Graph,True
+27,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,109,Graph,True
+28,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,117,Graph,True
+29,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,68,Graph,True
+30,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,224,Graph,True
+31,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,137,Graph,True
+32,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,247,Graph,True
+33,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,102,Graph,True
+34,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,155,Graph,True
+35,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,168,Graph,True
+36,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,178,Graph,True
+37,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,88,Graph,True
+38,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,226,Graph,True
+39,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,172,Graph,True
+0,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,169,Graph,False
+1,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,64,Graph,False
+2,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,169,Graph,False
+3,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,65,Graph,False
+4,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,20,Graph,False
+5,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,177,Graph,False
+6,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,93,Graph,False
+7,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,103,Graph,False
+8,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,106,Graph,False
+9,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,119,Graph,False
+10,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,87,Graph,False
+11,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,173,Graph,False
+12,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,167,Graph,False
+13,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,170,Graph,False
+14,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,76,Graph,False
+15,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,6,Graph,False
+16,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,118,Graph,False
+17,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,89,Graph,False
+18,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,54,Graph,False
+19,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,71,Graph,False
+20,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,89,Graph,False
+21,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,146,Graph,False
+22,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,37,Graph,False
+23,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,64,Graph,False
+24,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,107,Graph,False
+25,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,47,Graph,False
+26,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,14,Graph,False
+27,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,150,Graph,False
+28,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,156,Graph,False
+29,0.80,CC1=C(C)C2=C(CCC(C)(COO)O2)C(C)=C1COC1=CC=C(CC2SC(=O)NC2=O)C=C1,1000,Graph,False
+30,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,89,Graph,False
+31,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,74,Graph,False
+32,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,56,Graph,False
+33,0.80,COCC1(C)CCC2=C(O1)C(COC1=CC=C(CC3SC(=O)NC3=O)C=C1)=C(C)C(O)=C2C,1000,Graph,False
+34,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,17,Graph,False
+35,0.80,CC1=C(COC2=CC=C(CC3SC(=O)NC3=O)C=C2)C(C)=C2CCC(C)(COO)OC2=C1C,1000,Graph,False
+36,0.80,COCC1(C)CCC2=C(O1)C(COC1=CC=C(CC3SC(=O)NC3=O)C=C1)=C(C)C(O)=C2C,1000,Graph,False
+37,0.83,CC1=C(C)C2=C(CCC(C)(CC3=CC=C(OCC4SC(=O)NC4=O)C=C3)O2)C(C)=C1O,1000,Graph,False
+38,0.83,CC1=C(O)C(C)=C2CCC(C)(CC3=CC=C(OCC4SC(=O)NC4=O)C=C3)OC2=C1C,1000,Graph,False
+39,1.00,Cc1c(C)c2c(c(C)c1O)CCC(C)(COc1ccc(CC3SC(=O)NC3=O)cc1)O2,36,Graph,False

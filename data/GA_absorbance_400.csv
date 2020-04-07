@@ -1,0 +1,57 @@
+* target 400.0
+* sigma 50.0
+* threshold 0.3
+* n_confs 20
+* max_score 1.99
+* population_size 20
+* mating_pool_size 20
+* generations 50
+* mutation_rate 0.05
+* average_size/size_stdev 50.0 5.0
+* initial pool ZINC_1000_400.smi
+* prune population True
+* number of tries 40
+* number of CPUs 40
+* seeds 199968,385688,19130,474546,708208,946885,818704,495425,358311,838352,532599,92298,559652,497185,328888,530048,810565,536103,715950,309609,785930,462581,148745,848272,552549,219569,264415,546146,411522,949643,934448,867384,320896,863530,459945,514238,926727,621478,387008,827857,408627,983210,702866,882122,784226,531913,857843,71604,655886,735652,276010,960537,917492,520054,230655,144359,162576,736152,94429,937366,192951,350117,449704,317754,457439,47208,77702,140484,222834,285718,269933,212967,398177,365269,503713,588487,986798,213968,855866,556184
+* 
+run,score,smiles,generations,representation,prune
+0,2.00,CC1=NC=C(c2ccc(-c3ncc(-c4ccc(C)cc4)o3)cn2)OC1,9,Graph,True
+1,2.00,O=C(NC1=CC=C(OC(F)(F)F)C1)C1=CC=C(F)C1,6,Graph,True
+2,2.00,CCON1NC(C)C2N=C(n3c(CCCl)nc4c(C)nn(OCC)c43)C(Cl)=C21,3,Graph,True
+3,2.00,C1=CC2=CC=C(C3=NN=C4C=CCC[C@H]43)[C@@H]2CC1,5,Graph,True
+4,2.00,CC(=O)Nc1ccc(NC(=O)c2nnn(-c3ccc(C)c(C)c3)c2C(=O)NC2=CC=C(Cl)C2)cc1,2,Graph,True
+5,2.00,C[C@H]1[NH2+]CC[C@@H]1C(=O)ON1CCN(C(=O)C2=CN(CCN3c4ncccc4N=C4OCOC43)NC2)CC1,4,Graph,True
+6,2.00,C[C@@H]1C=CC=C(SOC2=C(C3=CC=C[C@@H](C4=CC=C[C@@H](C)N4)N3)C[C@@H](C)N2)N1,10,Graph,True
+7,2.00,O=C(NC1=CC[NH+](Cc2nc(-c3ccccc3)cs2)CC1)c1sn2cc(-c3nc(-c4ccccc4)cs3)sc12,5,Graph,True
+8,2.00,CC=C/C=C1\SC([N-]c2cc(OC)c(O)c(OC)c2)=NC1=O,5,Graph,True
+9,1.99,CC(C)(CNC(=O)CCc1ncc(C2=CC=C(NC(=O)c3ccc4c(c3)Cc3ccccc3-4)C2)o1)c1ccncc1,2,Graph,True
+10,2.00,O=C(NC1=CC=C(Cl)SC1)c1cccs1,13,Graph,True
+11,2.00,Cc1ccc(-c2cnc(NC(=O)c3ccc4c(c3)CC3=C(c5ncc(-c6ccc(C)cc6)o5)OCC=C34)o2)cc1,5,Graph,True
+12,2.00,CC(=O)n1cccc(C)c1=[NH+]CCCc1cccn2c(=O)cc(CCN3CC[NH+](CC4=C5CC=CC(=O)N5C=CC4)CC3)[nH+]c12,8,Graph,True
+13,2.00,CC1(C)CS(=O)(=O)N(C2C=CC=C2C(=O)N2C=C3CC(Cl)CCC3=CC2)C1=O,3,Graph,True
+14,1.99,O=C(C=CCl)NC1=CN(C2=C[C@@H](CNNc3nc4ccc(Cl)cc4s3)OC2)CC1,5,Graph,True
+15,1.99,Cc1cccc(NC(=O)[C@H](C)[S@@](=O)Cc2nnc(C3=CC=C4OCOC43)s2)c1C,5,Graph,True
+16,2.00,CCCc1cc(C2=NC=C(C3=CC=CC3)CC2N)n(C)n1,7,Graph,True
+17,2.00,Cc1ccc(C(=O)c2ccc(CC(=O)NCC3=CC[C@@H]([NH+](C)C(=O)c4ccc(C)s4)CO3)s2)s1,9,Graph,True
+18,2.00,Cc1c(C2=NC(C(=O)C3=CC=C4OCOC43)=CC2)nnn1-c1ccc2c(c1)OCO2,5,Graph,True
+19,1.99,CCC(CC)C(=O)Nc1cnn(C2=CC=C(n3cc(Nn4cc(NNC(=O)C(CC)C(C)O)cn4)cn3)C2CC)c1,7,Graph,True
+20,1.99,CC(C)N(CC(N)=O)C(=O)CSC1=NC=C(n2ccnc2SCC(=O)N(C)CC(N)=O)C1,8,Graph,True
+21,2.00,CCC(CC)NC(=O)c1ccc2c(c1)CCCN2c1occ2c1NCC(C)C2,5,Graph,True
+22,2.00,N#CC(/C=N\Oc1occc1Br)=C/C1=CC=CC1NC(=O)C1CCCC1,2,Graph,True
+23,2.00,Cc1ccc(-c2cnc(CCC(=O)N(C)C3=CC=C(Nc4cccc(Cl)c4)C3)o2)cc1,2,Graph,True
+24,2.00,Cc1cnc2nc(C[C@H](O)CC3=C4NCC(C)CC4N=N3)[nH]c2c1,3,Graph,True
+25,2.00,C1=CSCC(c2ncc[nH]2)=C1,19,Graph,True
+26,1.99,COC1=C(NC(=O)N2CCC[C@@H]3CCC[C@@H]32)C(CNC(=O)CCNC(=O)N2CCC[C@@H]3CCC[C@@H]32)C=C1CC(C)C,7,Graph,True
+27,1.99,CC1=C2C3=CC=CC3CC2N=C1,5,Graph,True
+28,2.00,Cc1ccc(C(=O)c2ccc(C3=NC(C4=CC(C)CC4)=CC3)s2)s1,9,Graph,True
+29,2.00,C=C[C@H](C)C(=O)NC1=CCC[C@H]1NC(=O)CSC1=CC=C(NC(=O)c2ccc(S(C)(=O)=O)cc2)CO1,6,Graph,True
+30,1.99,O=C(COc1cc(Cl)c(Cl)cc1Cl)N1C=CN(C=CC(=O)n2nnnc2CN2CC[C@]3(C2)N=CC=C(Br)C3=O)CC1,4,Graph,True
+31,2.00,C[C@@H](Cc1ncc(-c2ccc(-c3cnc(CCC(=O)NCC(C)(C)c4ccncc4)o3)cc2)o1)[NH2+]C1C=C(C2=CN=CCO2)O[C@@H](C)C1,3,Graph,True
+32,2.00,COc1ccc(Cn2ccc3c(c2=O)CC(c2csc(Nc4cnc(CCC(=O)N(C)C5=CN(S(=O)(=O)[C@@H](C)C#N)C=CC5)o4)n2)=N3)cc1,5,Graph,True
+33,1.99,Nc1ccc(C2=CN=C(c3ccc4c(c3)OCO4)C2)nc1,10,Graph,True
+34,2.00,CNC(=O)c1[nH]n(C2=NC=NC(OCC(=O)NCc3ccccc3OC)[C@H]2C(N)=O)c1C,4,Graph,True
+35,2.00,COc1ccccc1C1=CC(C2=CN(C3=CC=C(C)C3)CCO2)=CCO1,7,Graph,True
+36,2.00,CN(C(=O)CCc1ncc(C2=CC=C(SNC(=O)c3cccc(Br)c3)C2)o1)C1CCOCC1,1,Graph,True
+37,2.00,Cn1nnc2cn(C=CF)c(=O)cc21,2,Graph,True
+38,2.00,CCCc1nnc(C[NH+](C)[C@@H](C)C(=O)NC2=C(N3N=C(C)CN=C3C)C=CC2)n1C,4,Graph,True
+39,2.00,Cc1cn(-c2ccccc2Cl)nc1NC(=O)N1C=CC=C(c2nc(N(C)C)nc3c2CCCC3)C1,1,Graph,True
