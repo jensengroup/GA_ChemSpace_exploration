@@ -9,7 +9,7 @@ GB_GA.py can be found [here](https://github.com/jensengroup/GB-GA), Celecoxib_gu
 ```
 seeds = [292273,265159,...,894088,306197]
 ```
-where the seeds are taken from celecoxib_rediscovery_graph.csv
+in celecoxib_rediscovery_graph.py, where the seeds are taken from celecoxib_rediscovery_graph.csv
 
 
 The "_string" files are used with string_GA.py found [here](https://github.com/jensengroup/String-GA).
